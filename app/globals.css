@@ -129,9 +129,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Nature animations — hidden on mobile */
-.nature-anim { display: none; }
-@media (min-width: 640px) { .nature-anim { display: block; } }
+/* Nature animations — smaller on mobile to prevent overlap */
+@media (max-width: 639px) { .nature-anim { height: 18px !important; } }
 
 @keyframes swayA {
   0%, 100% { transform: rotate(-7deg); }
