@@ -298,14 +298,14 @@ export default function HomeContent() {
             className="text-center mb-16"
           >
             <span className="text-groen-neon font-body font-semibold text-sm tracking-widest uppercase">
-              Realisaties
+              Onze Realisaties
             </span>
             <h2 className="font-heading text-4xl sm:text-5xl font-bold text-wit mt-3 mb-4">
-              Recent werk in de Kempen
+              Trots op elk project
             </h2>
             <p className="text-grijs font-body text-lg max-w-2xl mx-auto">
-              Bekijk een selectie van onze meest recente tuinprojecten in Mol, Geel,
-              Balen en de ruimere Kempen-regio.
+              Van strakke bestrating tot weelderig groen — ontdek een greep uit onze
+              afgewerkte projecten in de Kempen.
             </p>
           </motion.div>
 
@@ -318,22 +318,22 @@ export default function HomeContent() {
           >
             {[
               {
-                title: 'Moderne Tuinaanleg Mol',
+                title: 'Gazon & Terras met Klinkers',
                 category: 'Aanleg',
-                image: '/images/realisaties/foto%201.jpeg',
-                alt: 'Tuinaanleg project TuinXpert — moderne tuin met terras in Mol',
+                image: '/images/realisaties/foto-1.jpeg',
+                alt: 'Tuinaanleg met gazon en betegeld terras door TuinXpert in de Kempen',
               },
               {
-                title: 'Vijver & Terras Geel',
-                category: 'Vijvers',
-                image: '/images/realisaties/foto%204.jpeg',
-                alt: 'Vijver aangelegd door hovenier TuinXpert in Geel — Kempen',
+                title: 'Beplanting & Groenvoorziening',
+                category: 'Beplanting',
+                image: '/images/realisaties/foto-3.jpeg',
+                alt: 'Beplanting met boom, heesters en mulch door TuinXpert',
               },
               {
-                title: 'Oprit Klinkers Mol',
+                title: 'Kasseien Oprit',
                 category: 'Bestrating',
-                image: '/images/realisaties/foto%207.jpeg',
-                alt: 'Bestrating oprit klinkers door TuinXpert in Mol',
+                image: '/images/realisaties/foto-4.jpeg',
+                alt: 'Kasseien oprit aangelegd door TuinXpert in de Kempen',
               },
             ].map((project, index) => (
               <motion.div
