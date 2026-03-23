@@ -318,22 +318,22 @@ export default function HomeContent() {
           >
             {[
               {
-                title: 'Gazon & Terras met Klinkers',
-                category: 'Aanleg',
+                title: 'Pad Beklinkerd',
+                category: 'Bestrating',
                 image: '/images/realisaties/foto-1.jpeg',
-                alt: 'Tuinaanleg met gazon en betegeld terras door TuinXpert in de Kempen',
+                alt: 'Beklinkerd tuinpad aangelegd door TuinXpert in de Kempen',
               },
               {
-                title: 'Beplanting & Groenvoorziening',
-                category: 'Beplanting',
+                title: 'Groenonderhoud',
+                category: 'Onderhoud',
                 image: '/images/realisaties/foto-3.jpeg',
-                alt: 'Beplanting met boom, heesters en mulch door TuinXpert',
+                alt: 'Groenonderhoud met beplanting en snoeien door TuinXpert',
               },
               {
-                title: 'Kasseien Oprit',
+                title: 'Kasseien Oprit Reinigen',
                 category: 'Bestrating',
                 image: '/images/realisaties/foto-4.jpeg',
-                alt: 'Kasseien oprit aangelegd door TuinXpert in de Kempen',
+                alt: 'Kasseien oprit gereinigd door TuinXpert in de Kempen',
               },
             ].map((project, index) => (
               <motion.div
