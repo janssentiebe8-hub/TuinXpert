@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   description:
     'Ontdek onze diensten: tuinaanleg, tuinonderhoud, bestrating & groenvoorziening in Mol en de Kempen. Vakwerk door TuinXpert.',
   alternates: {
-    canonical: 'https://www.xandrostuinen.be/diensten',
+    canonical: 'https://www.tuinxpert.be/diensten',
   },
   openGraph: {
     title: 'Onze Diensten | Tuinaanleg, Onderhoud & Bestrating — TuinXpert Mol',
     description:
       'Ontdek onze diensten: tuinaanleg, tuinonderhoud, bestrating & groenvoorziening in Mol en de Kempen. Vakwerk door TuinXpert.',
-    url: 'https://www.xandrostuinen.be/diensten',
+    url: 'https://www.tuinxpert.be/diensten',
   },
 }
 

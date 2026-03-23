@@ -36,7 +36,7 @@ export default function CookiesPage() {
             <div className="bg-donker rounded-2xl p-8 border border-groen border-opacity-10">
               <p className="text-grijs font-body leading-relaxed">
                 TuinXpert maakt gebruik van uitsluitend strikt noodzakelijke cookies op de website
-                www.xandrostuinen.be. Wij plaatsen <strong className="text-wit">geen</strong> analytische
+                www.tuinxpert.be. Wij plaatsen <strong className="text-wit">geen</strong> analytische
                 cookies, marketingcookies of cookies van derde partijen. Dit cookiebeleid legt uit
                 wat cookies zijn en welke cookies wij gebruiken. Dit beleid is conform de ePrivacy
                 Richtlijn (2002/58/EG, gewijzigd door 2009/136/EG) en de Algemene Verordening

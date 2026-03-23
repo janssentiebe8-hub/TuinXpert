@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     'Bekijk onze gerealiseerde tuinprojecten in Mol, Geel, Turnhout en de Kempen. Inspiratie voor uw droomtuin bij TuinXpert.',
   alternates: {
-    canonical: 'https://www.xandrostuinen.be/realisaties',
+    canonical: 'https://www.tuinxpert.be/realisaties',
   },
   openGraph: {
     title: 'Realisaties | Tuinaanleg Projecten in Mol & Kempen — TuinXpert',
     description:
       'Bekijk onze gerealiseerde tuinprojecten in Mol, Geel, Turnhout en de Kempen. Inspiratie voor uw droomtuin bij TuinXpert.',
-    url: 'https://www.xandrostuinen.be/realisaties',
+    url: 'https://www.tuinxpert.be/realisaties',
   },
 }
 

@@ -17,17 +17,8 @@ const navLinks = [
 ]
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const pathname = usePathname()
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
-    }
-    window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -105,6 +96,7 @@ export default function Header() {
 
             {/* Hamburger (mobile) */}
             <button
+              type="button"
               className="lg:hidden text-black hover:text-groen-neon transition-colors duration-200 p-1"
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label={mobileOpen ? 'Sluit menu' : 'Open menu'}

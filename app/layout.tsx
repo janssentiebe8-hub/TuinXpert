@@ -30,18 +30,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'TuinXpert' }],
   creator: 'TuinXpert',
-  metadataBase: new URL('https://www.xandrostuinen.be'),
+  metadataBase: new URL('https://www.tuinxpert.be'),
   openGraph: {
     type: 'website',
     locale: 'nl_BE',
-    url: 'https://www.xandrostuinen.be',
+    url: 'https://www.tuinxpert.be',
     siteName: 'TuinXpert',
     title: 'TuinXpert Mol | Tuinaanleg & Tuinonderhoud in de Kempen',
     description:
       'TuinXpert uit Mol — specialist in tuinaanleg, tuinonderhoud & bestrating in de Kempen. Van schets tot droomtuin.',
     images: [
       {
-        url: 'https://www.xandrostuinen.be/images/hero.jpg',
+        url: 'https://www.tuinxpert.be/images/hero.jpg',
         width: 1200,
         height: 630,
         alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen',

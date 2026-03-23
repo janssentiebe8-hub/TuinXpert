@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     'Maak kennis met TuinXpert — uw betrouwbare hovenier in Mol. Passie voor tuinaanleg en groenonderhoud in de Kempen. Meer dan 10 jaar vakmanschap.',
   alternates: {
-    canonical: 'https://www.xandrostuinen.be/over-ons',
+    canonical: 'https://www.tuinxpert.be/over-ons',
   },
   openGraph: {
     title: 'Over TuinXpert | Uw Hovenier in Mol, Kempen',
     description:
       'Maak kennis met TuinXpert — uw betrouwbare hovenier in Mol. Passie voor tuinaanleg en groenonderhoud in de Kempen.',
-    url: 'https://www.xandrostuinen.be/over-ons',
+    url: 'https://www.tuinxpert.be/over-ons',
   },
 }
 

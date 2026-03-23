@@ -21,16 +21,16 @@ export const metadata: Metadata = {
     'tuinrenovatie Mol',
   ],
   alternates: {
-    canonical: 'https://www.xandrostuinen.be',
+    canonical: 'https://www.tuinxpert.be',
   },
   openGraph: {
     title: 'TuinXpert Mol | Tuinaanleg & Tuinonderhoud in de Kempen',
     description:
       'TuinXpert uit Mol — specialist in tuinaanleg, tuinonderhoud & bestrating in de Kempen. Van schets tot droomtuin. Vraag een gratis offerte aan!',
-    url: 'https://www.xandrostuinen.be',
+    url: 'https://www.tuinxpert.be',
     images: [
       {
-        url: 'https://www.xandrostuinen.be/images/hero.jpg',
+        url: 'https://www.tuinxpert.be/images/hero.jpg',
         width: 1200,
         height: 630,
         alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen',
@@ -44,7 +44,7 @@ const localBusinessJsonLd = {
   '@type': 'LocalBusiness',
   name: 'TuinXpert',
   description: 'Tuinaanleg en tuinonderhoud in Mol en de Kempen',
-  url: 'https://www.xandrostuinen.be',
+  url: 'https://www.tuinxpert.be',
   telephone: '+32474552244',
   email: 'XandroTuin111@hotmail.com',
   address: {
@@ -72,7 +72,7 @@ const localBusinessJsonLd = {
   ],
   openingHours: 'Mo-Fr 08:00-18:00',
   priceRange: '€€',
-  image: 'https://www.xandrostuinen.be/images/hero.jpg',
+  image: 'https://www.tuinxpert.be/images/hero.jpg',
   sameAs: [] as string[],
 }
 

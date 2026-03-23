@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /api/
 
-Sitemap: https://www.xandrostuinen.be/sitemap.xml
+Sitemap: https://www.tuinxpert.be/sitemap.xml

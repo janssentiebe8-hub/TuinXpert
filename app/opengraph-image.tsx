@@ -54,7 +54,7 @@ export default function OGImage() {
             fontWeight: 700,
           }}
         >
-          www.xandrostuinen.be
+          www.tuinxpert.be
         </div>
       </div>
     ),

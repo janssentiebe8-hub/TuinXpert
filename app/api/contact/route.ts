@@ -86,7 +86,7 @@ export async function POST(request: Request) {
             </tr>
           </table>
           <hr style="margin: 24px 0; border-color: #eee;" />
-          <p style="color: #888; font-size: 12px;">Verzonden via xandrostuinen.be op ${new Date().toLocaleString('nl-BE')}</p>
+          <p style="color: #888; font-size: 12px;">Verzonden via tuinxpert.be op ${new Date().toLocaleString('nl-BE')}</p>
         </div>
       `
 
@@ -108,7 +108,7 @@ export async function POST(request: Request) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'website@xandrostuinen.be',
+          from: 'website@tuinxpert.be',
           to: 'XandroTuin111@hotmail.com',
           subject: `Nieuw contactbericht van ${naam}`,
           html: emailHtml,
@@ -124,7 +124,7 @@ export async function POST(request: Request) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'website@xandrostuinen.be',
+          from: 'website@tuinxpert.be',
           to: email,
           subject: 'Wij hebben uw bericht ontvangen — TuinXpert',
           html: confirmHtml,
