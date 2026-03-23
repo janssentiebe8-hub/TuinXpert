@@ -65,7 +65,7 @@ export function GrowingPlants() {
   return (
     <div
       aria-hidden="true"
-      className="nature-anim"
+      className="nature-anim growing-plants"
       style={{
         position: 'absolute',
         bottom: 0,

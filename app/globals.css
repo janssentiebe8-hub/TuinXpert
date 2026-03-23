@@ -129,8 +129,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Nature animations — smaller on mobile to prevent overlap */
-@media (max-width: 639px) { .nature-anim { height: 18px !important; } }
+/* Nature animations — hide plant clusters on mobile, keep grass blades */
+@media (max-width: 639px) { .growing-plants { display: none; } }
 
 @keyframes swayA {
   0%, 100% { transform: rotate(-7deg); }
