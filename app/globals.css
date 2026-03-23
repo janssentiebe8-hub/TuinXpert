@@ -129,7 +129,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Nature animations */
+/* Nature animations — hidden on mobile */
+.nature-anim { display: none; }
+@media (min-width: 640px) { .nature-anim { display: block; } }
+
 @keyframes swayA {
   0%, 100% { transform: rotate(-7deg); }
   50%       { transform: rotate(5deg);  }

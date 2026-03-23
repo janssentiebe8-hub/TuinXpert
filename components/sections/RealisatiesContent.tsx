@@ -299,7 +299,7 @@ export default function RealisatiesContent() {
                 <span className="text-groen-neon font-body text-xs font-semibold tracking-widest uppercase">
                   {filtered[lightboxIndex].category}
                 </span>
-                <h3 className="font-heading text-2xl font-bold text-wit mt-1">
+                <h3 className="font-heading text-xl sm:text-2xl font-bold text-wit mt-1">
                   {filtered[lightboxIndex].title}
                 </h3>
                 <p className="text-grijs font-body text-sm">
@@ -312,14 +312,14 @@ export default function RealisatiesContent() {
 
               <button
                 onClick={prevImage}
-                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 text-white hover:text-groen-neon transition-colors duration-200 bg-black bg-opacity-60 rounded-full p-2 hover:shadow-groen-glow"
+                className="absolute left-2 sm:left-0 top-1/2 -translate-y-1/2 sm:-translate-x-16 text-white hover:text-groen-neon transition-colors duration-200 bg-black bg-opacity-60 rounded-full p-2 hover:shadow-groen-glow"
                 aria-label="Vorige foto"
               >
                 <ChevronLeft size={28} />
               </button>
               <button
                 onClick={nextImage}
-                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 text-white hover:text-groen-neon transition-colors duration-200 bg-black bg-opacity-60 rounded-full p-2 hover:shadow-groen-glow"
+                className="absolute right-2 sm:right-0 top-1/2 -translate-y-1/2 sm:translate-x-16 text-white hover:text-groen-neon transition-colors duration-200 bg-black bg-opacity-60 rounded-full p-2 hover:shadow-groen-glow"
                 aria-label="Volgende foto"
               >
                 <ChevronRight size={28} />

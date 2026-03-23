@@ -17,6 +17,7 @@ export function WavingGrass() {
   return (
     <div
       aria-hidden="true"
+      className="nature-anim"
       style={{
         position: 'absolute',
         bottom: 0,
@@ -64,6 +65,7 @@ export function GrowingPlants() {
   return (
     <div
       aria-hidden="true"
+      className="nature-anim"
       style={{
         position: 'absolute',
         bottom: 0,

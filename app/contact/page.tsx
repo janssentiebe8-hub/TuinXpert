@@ -35,7 +35,7 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
@@ -98,10 +98,10 @@ export default function ContactPage() {
               <h3 className="font-heading text-xl font-bold text-wit mb-4">
                 Locatie
               </h3>
-              <div className="rounded-2xl overflow-hidden border border-groen border-opacity-20">
+              <div className="rounded-2xl overflow-hidden border border-groen border-opacity-20 aspect-video">
                 <iframe
                   width="100%"
-                  height="300"
+                  height="100%"
                   style={{ border: 0 }}
                   src="https://maps.google.com/maps?q=Feynend%208&t=m&z=10&ie=UTF8&iwloc=&output=embed"
                   loading="lazy"

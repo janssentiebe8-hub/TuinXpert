@@ -98,7 +98,7 @@ export default function DienstenPage() {
     <>
       {/* Hero */}
       <section
-        className="pt-32 pb-16 relative overflow-hidden"
+        className="pt-24 sm:pt-32 pb-12 sm:pb-16 relative overflow-hidden"
         style={{ background: 'linear-gradient(180deg, #F0F7F0 0%, #FFFFFF 100%)' }}
       >
         <div

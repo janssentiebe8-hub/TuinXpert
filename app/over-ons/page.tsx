@@ -105,7 +105,7 @@ export default function OverOnsPage() {
       {/* Company Story */}
       <section className="section-padding bg-donker relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
               <span className="text-groen-neon font-body font-semibold text-sm tracking-widest uppercase">
                 Ons verhaal
@@ -136,7 +136,7 @@ export default function OverOnsPage() {
             </div>
             <div className="relative">
               <div
-                className="rounded-2xl overflow-hidden h-96 lg:h-[500px] relative"
+                className="rounded-2xl overflow-hidden h-64 sm:h-96 lg:h-[500px] relative"
                 style={{
                   background:
                     'linear-gradient(135deg, #1a3a1a 0%, #2D6A2D 50%, #0A1A0A 100%)',
