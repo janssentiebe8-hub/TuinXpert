@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kleur-zwart: #FFFFFF;
+  --kleur-donker: #F0F7F0;
+  --kleur-groen: #2D6A2D;
+  --kleur-groen-helder: #3D8B3D;
+  --kleur-groen-neon: #4CAF50;
+  --kleur-wit: #111111;
+  --kleur-grijs: #555555;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--kleur-zwart);
+  color: var(--kleur-wit);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  line-height: 1.2;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8f0e8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--kleur-groen);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--kleur-groen-helder);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--kleur-groen);
+  color: var(--kleur-wit);
+}
+
+/* Button base styles */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--kleur-groen-neon);
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--kleur-groen-helder);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: var(--kleur-wit);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 4px;
+  border: 2px solid var(--kleur-groen-neon);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: var(--kleur-groen-neon);
+  color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--kleur-groen-neon);
+  outline-offset: 3px;
+}
+
+/* Section spacing */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* Nature animations */
+@keyframes swayA {
+  0%, 100% { transform: rotate(-7deg); }
+  50%       { transform: rotate(5deg);  }
+}
+@keyframes swayB {
+  0%, 100% { transform: rotate(5deg);  }
+  50%       { transform: rotate(-7deg); }
+}
