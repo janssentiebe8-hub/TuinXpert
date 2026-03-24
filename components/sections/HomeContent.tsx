@@ -149,8 +149,8 @@ export default function HomeContent() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
-                  { value: '10+', label: 'Jaar ervaring' },
-                  { value: '200+', label: 'Tuinen aangelegd' },
+                  { value: '5+', label: 'Jaar in de sector' },
+                  { value: '100%', label: 'Op maat' },
                   { value: '100%', label: 'Tevredenheid' },
                 ].map((stat) => (
                   <div key={stat.label} className="text-center">
@@ -181,8 +181,8 @@ export default function HomeContent() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-groen-neon text-white rounded-2xl p-4 shadow-groen-glow">
-                <div className="font-heading text-2xl font-bold">10+</div>
-                <div className="font-body text-xs font-medium">jaar ervaring</div>
+                <div className="font-heading text-2xl font-bold">5+</div>
+                <div className="font-body text-xs font-medium">jaar in de sector</div>
               </div>
             </motion.div>
           </div>
