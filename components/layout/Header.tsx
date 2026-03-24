@@ -193,10 +193,10 @@ export default function Header() {
                   Offerte aanvragen
                 </Link>
                 <a
-                  href="tel:0474552244"
+                  href="tel:0493967417"
                   className="block w-full text-center font-body font-medium text-sm text-grijs mt-3 hover:text-groen-neon transition-colors duration-200"
                 >
-                  0474 55 22 44
+                  0493 96 74 17
                 </a>
               </div>
             </motion.div>

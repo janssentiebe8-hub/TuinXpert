@@ -47,19 +47,19 @@ export default function ContactPage() {
                   {
                     icon: <MapPin size={20} />,
                     label: 'Adres',
-                    value: 'Teststraat 1, 2400 Mol',
+                    value: 'Feynend 8, 2400 Mol',
                   },
                   {
                     icon: <Phone size={20} />,
                     label: 'GSM',
-                    value: '0474 55 22 44',
-                    href: 'tel:0474552244',
+                    value: '0493 96 74 17',
+                    href: 'tel:0493967417',
                   },
                   {
                     icon: <Mail size={20} />,
                     label: 'E-mail',
-                    value: 'XandroTuin111@hotmail.com',
-                    href: 'mailto:XandroTuin111@hotmail.com',
+                    value: 'Info@TuinXpert.be',
+                    href: 'mailto:Info@TuinXpert.be',
                   },
                   {
                     icon: <Clock size={20} />,

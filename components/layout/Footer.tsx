@@ -123,26 +123,26 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-groen-neon mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="font-body text-grijs text-sm">Teststraat 1</p>
+                  <p className="font-body text-grijs text-sm">Feynend 8</p>
                   <p className="font-body text-grijs text-sm">2400 Mol, België</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-groen-neon flex-shrink-0" />
                 <a
-                  href="tel:0474552244"
+                  href="tel:0493967417"
                   className="font-body text-grijs text-sm hover:text-groen-neon transition-colors duration-200"
                 >
-                  0474 55 22 44
+                  0493 96 74 17
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-groen-neon flex-shrink-0" />
                 <a
-                  href="mailto:XandroTuin111@hotmail.com"
+                  href="mailto:Info@TuinXpert.be"
                   className="font-body text-grijs text-sm hover:text-groen-neon transition-colors duration-200 break-all"
                 >
-                  XandroTuin111@hotmail.com
+                  Info@TuinXpert.be
                 </a>
               </div>
               <div className="flex items-start gap-3">
@@ -166,22 +166,22 @@ export default function Footer() {
           <div className="bg-zwart rounded-xl px-6 py-4 mb-6 text-xs font-body text-grijs space-y-1">
             <p>
               <strong className="text-wit">Officiële bedrijfsnaam:</strong>{' '}
-              [PLACEHOLDER officiële bedrijfsnaam] |{' '}
-              <strong className="text-wit">Rechtsvorm:</strong> [PLACEHOLDER — bijv. BV, eenmanszaak]
+              Xandro van den broek |{' '}
+              <strong className="text-wit">Rechtsvorm:</strong> Eenmanszaak
             </p>
             <p>
-              <strong className="text-wit">Maatschappelijke zetel:</strong> Teststraat 1, 2400 Mol,
+              <strong className="text-wit">Maatschappelijke zetel:</strong> Feynend 8, 2400 Mol,
               België |{' '}
-              <strong className="text-wit">KBO-nummer:</strong> [PLACEHOLDER] 0000.000.000 |{' '}
-              <strong className="text-wit">BTW-nummer:</strong> BE0000.000.000 [PLACEHOLDER]
+              <strong className="text-wit">KBO-nummer:</strong> 1007.856.130 |{' '}
+              <strong className="text-wit">BTW-nummer:</strong> BE1007856130
             </p>
             <p>
               <strong className="text-wit">E-mail voor klachten:</strong>{' '}
               <a
-                href="mailto:XandroTuin111@hotmail.com"
+                href="mailto:Info@TuinXpert.be"
                 className="text-groen-neon hover:underline"
               >
-                XandroTuin111@hotmail.com
+                Info@TuinXpert.be
               </a>
             </p>
           </div>

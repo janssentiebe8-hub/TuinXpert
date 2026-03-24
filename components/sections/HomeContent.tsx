@@ -521,13 +521,13 @@ export default function HomeContent() {
                 <ArrowRight size={18} />
               </Link>
               <a
-                href="tel:0474552244"
+                href="tel:0493967417"
                 className="inline-flex items-center justify-center gap-2 font-body font-semibold px-8 py-4 rounded-md text-white transition-all duration-300 hover:scale-105"
                 style={{ backgroundColor: '#4CAF50', boxShadow: '0 0 12px rgba(76,175,80,0.35)' }}
                 onMouseEnter={e => { e.currentTarget.style.backgroundColor='#3D8B3D'; e.currentTarget.style.boxShadow='0 0 28px rgba(76,175,80,0.6)' }}
                 onMouseLeave={e => { e.currentTarget.style.backgroundColor='#4CAF50'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
               >
-                Bel ons: 0474 55 22 44
+                Bel ons: 0493 96 74 17
               </a>
             </div>
           </motion.div>

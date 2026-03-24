@@ -227,8 +227,8 @@ export default function DienstenPage() {
                 Contacteer ons voor maatwerk
                 <ArrowRight size={18} />
               </Link>
-              <a href="tel:0474552244" className="btn-primary">
-                Bel ons: 0474 55 22 44
+              <a href="tel:0493967417" className="btn-primary">
+                Bel ons: 0493 96 74 17
               </a>
             </div>
           </div>

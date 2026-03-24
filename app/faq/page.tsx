@@ -23,7 +23,7 @@ const faqs = [
   {
     vraag: 'Hoe vraag ik een vrijblijvende offerte aan?',
     antwoord:
-      'Een offerte aanvragen gaat snel en eenvoudig. U kunt het contactformulier op onze website invullen, of ons rechtstreeks bellen op 0474 55 22 44. Na uw aanvraag plannen wij een gratis kennismakingsgesprek bij u thuis in, waarbij we uw wensen bespreken en de situatie ter plaatse bekijken. Vervolgens ontvangt u een gedetailleerde, vrijblijvende offerte op maat.',
+      'Een offerte aanvragen gaat snel en eenvoudig. U kunt het contactformulier op onze website invullen, of ons rechtstreeks bellen op 0493 96 74 17. Na uw aanvraag plannen wij een gratis kennismakingsgesprek bij u thuis in, waarbij we uw wensen bespreken en de situatie ter plaatse bekijken. Vervolgens ontvangt u een gedetailleerde, vrijblijvende offerte op maat.',
     categorie: 'Offerte',
   },
   {
@@ -205,11 +205,11 @@ export default function FaqPage() {
                   <ArrowRight size={16} />
                 </Link>
                 <a
-                  href="tel:0474552244"
+                  href="tel:0493967417"
                   className="inline-flex items-center justify-center gap-2 bg-transparent text-white font-body font-semibold px-7 py-3.5 rounded-md border-2 border-white border-opacity-50 hover:border-opacity-100 hover:bg-white hover:text-groen transition-all duration-300 hover:scale-105"
                 >
                   <Phone size={18} />
-                  0474 55 22 44
+                  0493 96 74 17
                 </a>
               </div>
             </div>

@@ -18,29 +18,6 @@ export const metadata: Metadata = {
   },
 }
 
-const teamMembers = [
-  {
-    name: 'Xandro [PLACEHOLDER Achternaam]',
-    role: 'Zaakvoerder & Tuinaannemer',
-    description:
-      "Oprichter van TuinXpert met meer dan 10 jaar ervaring in tuinaanleg en -ontwerp. Gepassioneerd door groen en duurzame buitenruimtes.",
-    initials: 'X',
-  },
-  {
-    name: '[PLACEHOLDER Voornaam Naam]',
-    role: 'Tuinmedewerker',
-    description:
-      'Ervaren in bestrating, terrasaanleg en tuinonderhoud. Staat garant voor kwaliteitswerk en een nette oplevering bij elk project.',
-    initials: 'T',
-  },
-  {
-    name: '[PLACEHOLDER Voornaam Naam]',
-    role: 'Vijver- & Waterspecialist',
-    description:
-      'Specialist in de aanleg en het onderhoud van vijvers, waterpartijen en filtratiesystemen. Brengt water tot leven in elke tuin.',
-    initials: 'V',
-  },
-]
 
 const values = [
   {
@@ -200,62 +177,6 @@ export default function OverOnsPage() {
         <GrowingPlants />
       </section>
 
-      {/* Team */}
-      <section className="section-padding bg-donker relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="text-groen-neon font-body font-semibold text-sm tracking-widest uppercase">
-              Ons team
-            </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold text-wit mt-3 mb-4">
-              De mensen achter TuinXpert
-            </h2>
-            <p className="text-grijs font-body text-lg max-w-2xl mx-auto">
-              Wij zijn een klein, hecht team van gepassioneerde tuinprofessionals.
-              Elk projectlid brengt specifieke expertise mee, samen leveren wij
-              één geheel.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <div
-                key={index}
-                className="group bg-zwart rounded-2xl overflow-hidden border border-groen border-opacity-10 hover:border-groen-neon hover:border-opacity-40 transition-all duration-300 hover:shadow-groen-glow hover:-translate-y-1"
-              >
-                {/* Photo placeholder */}
-                <div
-                  className="h-56 relative flex items-center justify-center"
-                  style={{
-                    background:
-                      'linear-gradient(135deg, #1a3a1a 0%, #2D6A2D 100%)',
-                  }}
-                >
-                  <div className="w-20 h-20 rounded-full bg-groen-neon flex items-center justify-center text-white font-heading font-bold text-3xl shadow-groen-glow">
-                    {member.initials}
-                  </div>
-                  <p className="absolute bottom-3 left-0 right-0 text-center text-grijs font-body text-xs opacity-60">
-                    [PLACEHOLDER — teamfoto]
-                  </p>
-                </div>
-                <div className="p-6">
-                  <h3 className="font-heading text-xl font-bold text-wit mb-1">
-                    {member.name}
-                  </h3>
-                  <span className="text-groen-neon font-body text-sm font-semibold">
-                    {member.role}
-                  </span>
-                  <p className="text-grijs font-body text-sm leading-relaxed mt-3">
-                    {member.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        <WavingGrass />
-        <GrowingPlants />
-      </section>
     </>
   )
 }

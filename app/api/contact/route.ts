@@ -94,9 +94,9 @@ export async function POST(request: Request) {
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #2D6A2D;">Bedankt voor uw bericht, ${naam}!</h2>
           <p>Wij hebben uw bericht goed ontvangen en nemen zo snel mogelijk contact met u op.</p>
-          <p style="color: #555;">Heeft u dringend iemand nodig? Bel ons op <strong>0474 55 22 44</strong>.</p>
+          <p style="color: #555;">Heeft u dringend iemand nodig? Bel ons op <strong>0493 96 74 17</strong>.</p>
           <hr style="margin: 24px 0; border-color: #eee;" />
-          <p style="color: #888; font-size: 12px;">TuinXpert — Teststraat 1, 2400 Mol</p>
+          <p style="color: #888; font-size: 12px;">TuinXpert — Feynend 8, 2400 Mol</p>
         </div>
       `
 
@@ -109,7 +109,7 @@ export async function POST(request: Request) {
         },
         body: JSON.stringify({
           from: 'website@tuinxpert.be',
-          to: 'XandroTuin111@hotmail.com',
+          to: 'Info@TuinXpert.be',
           subject: `Nieuw contactbericht van ${naam}`,
           html: emailHtml,
           reply_to: email,

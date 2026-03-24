@@ -38,9 +38,9 @@ export default function AlgemeneVoorwaardenPage() {
             <div className="bg-donker rounded-2xl p-8 border border-groen border-opacity-10">
               <p className="text-grijs font-body leading-relaxed">
                 Deze algemene voorwaarden zijn van toepassing op alle offertes, overeenkomsten en leveringen
-                van diensten door <strong className="text-wit">[PLACEHOLDER officiële bedrijfsnaam]</strong>,
+                van diensten door <strong className="text-wit">Xandro van den broek</strong>,
                 handelend onder de naam <strong className="text-wit">TuinXpert</strong>, gevestigd te
-                Teststraat 1, 2400 Mol, KBO-nummer [PLACEHOLDER] 0000.000.000, BTW-nummer BE0000.000.000 [PLACEHOLDER].
+                Feynend 8, 2400 Mol, KBO-nummer 1007.856.130, BTW-nummer BE1007856130.
               </p>
               <p className="text-grijs font-body leading-relaxed mt-3">
                 Door het aanvragen van een offerte, het plaatsen van een opdracht of het sluiten van een
@@ -58,7 +58,7 @@ export default function AlgemeneVoorwaardenPage() {
                 {[
                   {
                     term: 'Opdrachtnemer',
-                    def: "[PLACEHOLDER officiële bedrijfsnaam], handelend onder TuinXpert",
+                    def: "Xandro van den broek, handelend onder TuinXpert",
                   },
                   {
                     term: 'Opdrachtgever / Klant',
@@ -264,10 +264,10 @@ export default function AlgemeneVoorwaardenPage() {
                 <p>
                   7.4 Klachten kunnen worden ingediend via:{' '}
                   <a
-                    href="mailto:XandroTuin111@hotmail.com"
+                    href="mailto:Info@TuinXpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    XandroTuin111@hotmail.com
+                    Info@TuinXpert.be
                   </a>
                 </p>
               </div>
@@ -374,20 +374,20 @@ export default function AlgemeneVoorwaardenPage() {
                 <p className="text-grijs font-body text-sm">
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
-                    href="mailto:XandroTuin111@hotmail.com"
+                    href="mailto:Info@TuinXpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    XandroTuin111@hotmail.com
+                    Info@TuinXpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body text-sm">
                   <strong className="text-wit">Telefoon:</strong>{' '}
-                  <a href="tel:0474552244" className="text-groen-neon hover:underline">
-                    0474 55 22 44
+                  <a href="tel:0493967417" className="text-groen-neon hover:underline">
+                    0493 96 74 17
                   </a>
                 </p>
                 <p className="text-grijs font-body text-sm">
-                  <strong className="text-wit">Post:</strong> TuinXpert, Teststraat 1, 2400 Mol
+                  <strong className="text-wit">Post:</strong> TuinXpert, Feynend 8, 2400 Mol
                 </p>
               </div>
             </div>

@@ -155,10 +155,10 @@ export default function CookiesPage() {
               <p className="text-grijs font-body leading-relaxed">
                 Heeft u vragen over ons cookiebeleid? Neem contact op via{' '}
                 <a
-                  href="mailto:XandroTuin111@hotmail.com"
+                  href="mailto:Info@TuinXpert.be"
                   className="text-groen-neon hover:underline"
                 >
-                  XandroTuin111@hotmail.com
+                  Info@TuinXpert.be
                 </a>
                 .
               </p>

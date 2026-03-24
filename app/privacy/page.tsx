@@ -37,7 +37,7 @@ export default function PrivacyPage() {
             {/* Intro */}
             <div className="bg-donker rounded-2xl p-8 border border-groen border-opacity-10">
               <p className="text-grijs font-body leading-relaxed">
-                TuinXpert, gevestigd te Teststraat 1, 2400 Mol, België, hecht groot belang aan de
+                TuinXpert, gevestigd te Feynend 8, 2400 Mol, België, hecht groot belang aan de
                 bescherming van uw persoonsgegevens. Dit privacybeleid legt uit hoe wij uw gegevens
                 verzamelen, gebruiken, bewaren en beschermen in overeenstemming met de Algemene
                 Verordening Gegevensbescherming (AVG/GDPR — Verordening (EU) 2016/679).
@@ -52,33 +52,33 @@ export default function PrivacyPage() {
               <div className="bg-donker rounded-xl p-6 border border-groen border-opacity-10 space-y-2">
                 <p className="text-grijs font-body">
                   <strong className="text-wit">Bedrijfsnaam:</strong>{' '}
-                  [PLACEHOLDER officiële bedrijfsnaam] — handelend onder de naam TuinXpert
+                  Xandro van den broek — handelend onder de naam TuinXpert
                 </p>
                 <p className="text-grijs font-body">
-                  <strong className="text-wit">Rechtsvorm:</strong> [PLACEHOLDER — bijv. BV, eenmanszaak]
+                  <strong className="text-wit">Rechtsvorm:</strong> Eenmanszaak
                 </p>
                 <p className="text-grijs font-body">
-                  <strong className="text-wit">Adres:</strong> Teststraat 1, 2400 Mol, België
+                  <strong className="text-wit">Adres:</strong> Feynend 8, 2400 Mol, België
                 </p>
                 <p className="text-grijs font-body">
-                  <strong className="text-wit">KBO-nummer:</strong> [PLACEHOLDER] 0000.000.000
+                  <strong className="text-wit">KBO-nummer:</strong> 1007.856.130
                 </p>
                 <p className="text-grijs font-body">
-                  <strong className="text-wit">BTW-nummer:</strong> BE0000.000.000 [PLACEHOLDER]
+                  <strong className="text-wit">BTW-nummer:</strong> BE1007856130
                 </p>
                 <p className="text-grijs font-body">
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
-                    href="mailto:XandroTuin111@hotmail.com"
+                    href="mailto:Info@TuinXpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    XandroTuin111@hotmail.com
+                    Info@TuinXpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body">
                   <strong className="text-wit">Telefoon:</strong>{' '}
-                  <a href="tel:0474552244" className="text-groen-neon hover:underline">
-                    0474 55 22 44
+                  <a href="tel:0493967417" className="text-groen-neon hover:underline">
+                    0493 96 74 17
                   </a>
                 </p>
               </div>
@@ -260,10 +260,10 @@ export default function PrivacyPage() {
               <p className="text-grijs font-body leading-relaxed mt-4">
                 Om uw rechten uit te oefenen, kunt u ons een verzoek sturen via{' '}
                 <a
-                  href="mailto:XandroTuin111@hotmail.com"
+                  href="mailto:Info@TuinXpert.be"
                   className="text-groen-neon hover:underline"
                 >
-                  XandroTuin111@hotmail.com
+                  Info@TuinXpert.be
                 </a>
                 . Wij reageren binnen de wettelijke termijn van 30 dagen. Wij kunnen u verzoeken uw
                 identiteit te bevestigen voor de verwerking van uw verzoek.
@@ -336,14 +336,14 @@ export default function PrivacyPage() {
                 <p className="text-grijs font-body text-sm">
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
-                    href="mailto:XandroTuin111@hotmail.com"
+                    href="mailto:Info@TuinXpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    XandroTuin111@hotmail.com
+                    Info@TuinXpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body text-sm">
-                  <strong className="text-wit">Post:</strong> TuinXpert, Teststraat 1, 2400 Mol
+                  <strong className="text-wit">Post:</strong> TuinXpert, Feynend 8, 2400 Mol
                 </p>
               </div>
             </div>
