@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: '/favicon.svg',
+    icon: '/images/favicon/TuinXpert-Logo-Secundair.png',
   },
 }
 
