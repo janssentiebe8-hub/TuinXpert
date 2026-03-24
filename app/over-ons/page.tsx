@@ -106,23 +106,13 @@ export default function OverOnsPage() {
               </div>
             </div>
             <div className="relative">
-              <div
-                className="rounded-2xl overflow-hidden h-64 sm:h-96 lg:h-[500px] relative"
-                style={{
-                  background:
-                    'linear-gradient(135deg, #1a3a1a 0%, #2D6A2D 50%, #0A1A0A 100%)',
-                }}
-              >
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="text-7xl mb-4">🌱</div>
-                    <p className="text-grijs font-body text-sm">
-                      [PLACEHOLDER — teamfoto TuinXpert]
-                    </p>
-                  </div>
-                </div>
-                <div className="absolute top-0 right-0 w-32 h-32 bg-groen-neon opacity-10 rounded-bl-full" />
-                <div className="absolute bottom-0 left-0 w-24 h-24 bg-groen opacity-20 rounded-tr-full" />
+              <div className="rounded-2xl overflow-hidden h-64 sm:h-96 lg:h-[500px] relative">
+                <Image
+                  src="/images/realisaties/Foto10.jpeg"
+                  alt="TuinXpert realisatie"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
