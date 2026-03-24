@@ -92,22 +92,16 @@ export default function OverOnsPage() {
               </h2>
               <div className="space-y-4 text-grijs font-body text-lg leading-relaxed">
                 <p>
-                  TuinXpert is ontstaan vanuit een diepe passie voor natuur en het
-                  buitenleven. De oprichter groeide op met de handen in de aarde en
-                  droomde er van jongs af aan van om zijn liefde voor tuinieren om te
-                  zetten in een levenswerk — als hovenier in Mol en de Kempen.
+                  TuinXpert is het verhaal van Xandro, een jonge en gedreven vakman uit Mol met een passie voor buitenwerk en alles wat met tuinen te maken heeft. Op 22-jarige leeftijd heeft hij al meerdere jaren ervaring in de bouwsector, waar hij een sterke basis heeft opgebouwd in nauwkeurigheid, hard werk en kwaliteit.
                 </p>
                 <p>
-                  Na een gerichte opleiding en jaren ervaring bij gerenommeerde
-                  tuinaanlegbedrijven in de regio, waagde hij de stap om zijn eigen
-                  onderneming op te richten in Mol. Wat begon als een eenmanszaak,
-                  groeide snel uit tot een klein maar gedreven team van tuinprofessionals.
+                  Wat begon als interesse, groeide al snel uit tot een echte passie. Xandro haalt voldoening uit het creëren van buitenruimtes waar mensen tot rust kunnen komen en genieten. Met oog voor detail en een praktische aanpak zet hij zich elke dag in om klanten tevreden achter te laten.
                 </p>
                 <p>
-                  Vandaag is TuinXpert een vertrouwde naam voor tuinaanleg en
-                  tuinonderhoud in Mol (2400) en omstreken. Wij zijn trots op de
-                  honderden tuinen die wij mochten ontwerpen, aanleggen en onderhouden
-                  in Mol, Geel, Balen, Retie, Turnhout en de ruimere Kempen-regio.
+                  TuinXpert staat voor betrouwbaarheid, duidelijke communicatie en werk dat met zorg wordt uitgevoerd. Of het nu gaat om een kleine aanpassing of een volledig project, elke opdracht wordt met dezelfde inzet en aandacht behandeld.
+                </p>
+                <p>
+                  Actief in Mol en omstreken helpt TuinXpert particulieren bij het aanleggen, onderhouden en verbeteren van hun tuin.
                 </p>
               </div>
             </div>

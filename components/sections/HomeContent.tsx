@@ -136,18 +136,16 @@ export default function HomeContent() {
                 Over ons
               </span>
               <h2 className="font-heading text-4xl sm:text-5xl font-bold text-wit mt-3 mb-6">
-                Uw specialist voor tuinaanleg in Mol (2400)
+                Van schets tot droomtuin
               </h2>
               <p className="text-grijs font-body text-lg leading-relaxed mb-6">
-                TuinXpert is een gepassioneerd tuinaanlegbedrijf gevestigd in Mol, actief
-                door heel de Kempen — van Geel en Balen tot Turnhout en Lommel. Met meer
-                dan 10 jaar ervaring als hovenier transformeren wij gewone tuinen in
-                buitengewone buitenruimtes.
+                TuinXpert is het verhaal van Xandro, een jonge en gedreven hovenier uit Mol, actief in de regio Mol, Geel, Balen, Turnhout en Lommel. Met een sterke passie voor tuinaanleg en tuinonderhoud creëert hij buitenruimtes waar mensen tot rust komen en genieten.
+              </p>
+              <p className="text-grijs font-body text-lg leading-relaxed mb-6">
+                Met een achtergrond in de bouwsector staat TuinXpert garant voor nauwkeurigheid, kwaliteit en een praktische aanpak. Elk project wordt met zorg en oog voor detail uitgevoerd.
               </p>
               <p className="text-grijs font-body text-lg leading-relaxed mb-8">
-                Of het nu gaat om een volledige tuinaanleg, een nieuw terras, bestrating
-                van uw oprit of regelmatig tuinonderhoud — TuinXpert levert altijd
-                kwaliteitswerk dat de verwachtingen overtreft. <em>Van schets tot droomtuin.</em>
+                Als betrouwbaar tuinbedrijf helpt TuinXpert je bij het aanleggen, onderhouden en verbeteren van je tuin — van schets tot droomtuin.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
