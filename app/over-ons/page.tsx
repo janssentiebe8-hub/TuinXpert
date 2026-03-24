@@ -108,7 +108,7 @@ export default function OverOnsPage() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden h-64 sm:h-96 lg:h-[500px] relative">
                 <Image
-                  src="/images/realisaties/Foto10.jpeg"
+                  src="/images/realisaties/foto10.jpeg"
                   alt="TuinXpert realisatie"
                   fill
                   className="object-cover"
