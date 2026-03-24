@@ -88,11 +88,15 @@ const projects: Project[] = [
   },
 ]
 
-const categories: Category[] = ['Alle', 'Tuinaanleg', 'Onderhoud', 'Bestrating', 'Groenvoorziening']
+const allCategories: Category[] = ['Alle', 'Tuinaanleg', 'Onderhoud', 'Bestrating', 'Groenvoorziening']
 
 export default function RealisatiesContent() {
   const [activeCategory, setActiveCategory] = useState<Category>('Alle')
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
+
+  const categories = allCategories.filter(
+    (cat) => cat === 'Alle' || projects.some((p) => p.category === cat)
+  )
 
   const filtered =
     activeCategory === 'Alle'
