@@ -107,11 +107,11 @@ export default function OverOnsPage() {
             </div>
             <div className="relative">
               <div className="rounded-2xl overflow-hidden h-64 sm:h-96 lg:h-[500px] relative">
-                <Image
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src="/images/realisaties/foto10.jpeg"
                   alt="TuinXpert realisatie"
-                  fill
-                  className="object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
