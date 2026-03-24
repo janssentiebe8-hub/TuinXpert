@@ -148,10 +148,7 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <Clock size={16} className="text-groen-neon mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="font-body text-grijs text-sm">Ma–Vr: 08:00–17:00</p>
-                  <p className="font-body text-grijs text-xs opacity-70">
-                    Za–Zo: Gesloten
-                  </p>
+                  <p className="font-body text-grijs text-sm">Ma–Zo: 06:00–22:00</p>
                 </div>
               </div>
             </div>

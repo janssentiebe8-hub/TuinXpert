@@ -64,7 +64,7 @@ export default function ContactPage() {
                   {
                     icon: <Clock size={20} />,
                     label: 'Openingsuren',
-                    value: 'Ma–Vr: 08:00–17:00',
+                    value: 'Ma–Zo: 06:00–22:00',
                   },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
