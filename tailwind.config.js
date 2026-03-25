@@ -12,7 +12,7 @@ module.exports = {
         donker: '#F0F7F0',
         groen: '#2D6A2D',
         'groen-helder': '#3D8B3D',
-        'groen-neon': '#4CAF50',
+        'groen-neon': '#2C632F',
         wit: '#111111',
         grijs: '#444444',
       },

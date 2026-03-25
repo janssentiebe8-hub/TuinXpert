@@ -25,7 +25,7 @@ export default function ScrollToTop() {
           aria-label="Scroll naar boven"
           className="fixed bottom-6 right-6 z-40 w-12 h-12 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110"
           style={{
-            backgroundColor: '#4CAF50',
+            backgroundColor: '#2C632F',
             boxShadow: '0 0 16px rgba(76,175,80,0.45)',
           }}
           onMouseEnter={(e) => {
@@ -33,7 +33,7 @@ export default function ScrollToTop() {
             e.currentTarget.style.boxShadow = '0 0 28px rgba(76,175,80,0.7)'
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = '#4CAF50'
+            e.currentTarget.style.backgroundColor = '#2C632F'
             e.currentTarget.style.boxShadow = '0 0 16px rgba(76,175,80,0.45)'
           }}
         >
