@@ -356,12 +356,6 @@ export default function PrivacyPage() {
               >
                 → Cookiebeleid
               </Link>
-              <Link
-                href="/algemene-voorwaarden"
-                className="text-groen-neon font-body text-sm hover:underline"
-              >
-                → Algemene Voorwaarden
-              </Link>
             </div>
           </div>
         </div>

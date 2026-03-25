@@ -148,7 +148,7 @@ export default function ContactForm() {
           id="telefoon"
           type="tel"
           autoComplete="tel"
-          placeholder="0474 55 22 44"
+          placeholder="Uw telefoonnummer"
           className={errors.telefoon ? inputErrorClass : inputNormalClass}
           {...register('telefoon')}
           aria-describedby={errors.telefoon ? 'telefoon-error' : undefined}

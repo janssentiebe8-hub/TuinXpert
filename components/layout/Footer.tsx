@@ -14,7 +14,6 @@ const quickLinks = [
 const legalLinks = [
   { label: 'Privacybeleid', href: '/privacy' },
   { label: 'Cookiebeleid', href: '/cookies' },
-  { label: 'Algemene Voorwaarden', href: '/algemene-voorwaarden' },
 ]
 
 const services = [
