@@ -6,7 +6,7 @@ import ContactForm from '@/components/ui/ContactForm'
 export const metadata: Metadata = {
   title: 'Contact | TuinXpert — Gratis Offerte Aanvragen',
   description:
-    'Contacteer TuinXpert voor een vrijblijvende offerte. Tuinaanleg en onderhoud in Mol en de Kempen. Bel ons op 0474 55 22 44 of stuur een bericht.',
+    'Contacteer TuinXpert voor een vrijblijvende offerte. Tuinaanleg en onderhoud in Mol en de Kempen. Bel ons op 0493 96 74 17 of stuur een bericht.',
   alternates: {
     canonical: 'https://www.tuinxpert.be/contact',
   },

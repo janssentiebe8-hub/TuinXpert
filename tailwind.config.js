@@ -14,7 +14,7 @@ module.exports = {
         'groen-helder': '#3D8B3D',
         'groen-neon': '#4CAF50',
         wit: '#111111',
-        grijs: '#555555',
+        grijs: '#444444',
       },
       fontFamily: {
         heading: ['Playfair Display', 'Georgia', 'serif'],

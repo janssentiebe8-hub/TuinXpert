@@ -11,7 +11,7 @@
   --kleur-groen-helder: #3D8B3D;
   --kleur-groen-neon: #4CAF50;
   --kleur-wit: #111111;
-  --kleur-grijs: #555555;
+  --kleur-grijs: #444444;
 }
 
 * {
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   gap: 0.5rem;
   background-color: var(--kleur-groen-neon);
-  color: #ffffff;
+  color: #111111;
   font-family: 'DM Sans', sans-serif;
   font-weight: 600;
   padding: 0.75rem 1.75rem;
@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:hover {
   background-color: var(--kleur-groen-helder);
+  color: #ffffff;
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
 }

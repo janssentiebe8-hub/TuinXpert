@@ -48,6 +48,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'TuinXpert Mol | Tuinaanleg & Tuinonderhoud in de Kempen',
+    description:
+      'TuinXpert uit Mol — specialist in tuinaanleg, tuinonderhoud & bestrating in de Kempen. Van schets tot droomtuin.',
+    images: ['https://www.tuinxpert.be/images/hero.jpg'],
+  },
   robots: {
     index: true,
     follow: true,

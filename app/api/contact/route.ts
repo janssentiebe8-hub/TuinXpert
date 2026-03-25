@@ -355,7 +355,7 @@ export async function POST(request: Request) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'website@tuinxpert.be',
+          from: 'TuinXpert <info@tuinxpert.be>',
           to: email,
           subject: 'Wij hebben uw aanvraag ontvangen — TuinXpert',
           html: confirmHtml,

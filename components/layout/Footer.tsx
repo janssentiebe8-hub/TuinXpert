@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, Instagram } from 'lucide-react'
 
 const quickLinks = [
   { label: 'Home', href: '/' },
@@ -50,15 +50,7 @@ export default function Footer() {
 
             {/* Social icons */}
             <div className="flex gap-3">
-              <a
-                href="[PLACEHOLDER — Facebook URL]"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="TuinXpert op Facebook"
-                className="w-10 h-10 rounded-full bg-zwart border border-groen border-opacity-20 flex items-center justify-center text-grijs hover:text-groen-neon hover:border-groen-neon hover:shadow-groen-glow transition-all duration-300 hover:scale-105"
-              >
-                <Facebook size={18} />
-              </a>
+              {/* Facebook icon verborgen totdat URL beschikbaar is */}
               <a
                 href="https://www.instagram.com/tuinxpert?igsh=MTRsdGp6bXNmbjVvMQ=="
                 target="_blank"
