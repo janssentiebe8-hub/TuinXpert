@@ -60,7 +60,7 @@ export default function Footer() {
                 <Facebook size={18} />
               </a>
               <a
-                href="[PLACEHOLDER — Instagram URL]"
+                href="https://www.instagram.com/tuinxpert?igsh=MTRsdGp6bXNmbjVvMQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TuinXpert op Instagram"
