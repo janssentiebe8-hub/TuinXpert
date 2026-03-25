@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <section className="section-padding bg-zwart scroll-mt-20 relative overflow-hidden min-h-screen pt-44">
+    <section className="bg-zwart scroll-mt-20 relative overflow-hidden min-h-screen pt-28 pb-20 sm:pt-36 lg:pt-44 lg:pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-groen-neon font-body font-semibold text-sm tracking-widest uppercase">
