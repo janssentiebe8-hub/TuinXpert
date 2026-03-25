@@ -76,8 +76,8 @@ export default function HomeContent() {
                   href="/diensten"
                   className="inline-flex items-center justify-center gap-2 font-body font-semibold px-8 py-4 rounded-md transition-all duration-300 hover:scale-105 active:scale-95"
                   style={{
-                    backgroundColor: '#4CAF50',
-                    color: '#111111',
+                    backgroundColor: '#2D6A2D',
+                    color: '#ffffff',
                     boxShadow: '0 0 12px rgba(76,175,80,0.35)',
                   }}
                   onMouseEnter={(e) => {
@@ -97,8 +97,8 @@ export default function HomeContent() {
                   href="/contact"
                   className="inline-flex items-center justify-center gap-2 font-body font-semibold px-8 py-4 rounded-md transition-all duration-300 hover:scale-105 active:scale-95"
                   style={{
-                    backgroundColor: '#4CAF50',
-                    color: '#111111',
+                    backgroundColor: '#2D6A2D',
+                    color: '#ffffff',
                     boxShadow: '0 0 12px rgba(76,175,80,0.35)',
                   }}
                   onMouseEnter={(e) => {
@@ -280,7 +280,7 @@ export default function HomeContent() {
               className="inline-flex items-center gap-2 font-body font-semibold px-8 py-4 rounded-md transition-all duration-300 hover:scale-105"
               style={{ backgroundColor: '#4CAF50', color: '#111111', boxShadow: '0 0 12px rgba(76,175,80,0.35)' }}
               onMouseEnter={e => { e.currentTarget.style.backgroundColor='#3D8B3D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 28px rgba(76,175,80,0.6)' }}
-              onMouseLeave={e => { e.currentTarget.style.backgroundColor='#4CAF50'; e.currentTarget.style.color='#111111'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
+              onMouseLeave={e => { e.currentTarget.style.backgroundColor='#2D6A2D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
             >
               Bekijk alle diensten
               <ArrowRight size={18} />
@@ -470,7 +470,7 @@ export default function HomeContent() {
                 className="inline-flex items-center gap-2 font-body font-semibold px-6 py-3 rounded-md transition-all duration-300 hover:scale-105"
                 style={{ backgroundColor: '#4CAF50', color: '#111111', boxShadow: '0 0 12px rgba(76,175,80,0.35)' }}
                 onMouseEnter={e => { e.currentTarget.style.backgroundColor='#3D8B3D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 28px rgba(76,175,80,0.6)' }}
-                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#4CAF50'; e.currentTarget.style.color='#111111'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
+                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#2D6A2D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
               >
                 <Star size={16} />
                 Schrijf een Google review
@@ -519,7 +519,7 @@ export default function HomeContent() {
                 className="inline-flex items-center justify-center gap-2 font-body font-semibold px-8 py-4 rounded-md transition-all duration-300 hover:scale-105"
                 style={{ backgroundColor: '#4CAF50', color: '#111111', boxShadow: '0 0 12px rgba(76,175,80,0.35)' }}
                 onMouseEnter={e => { e.currentTarget.style.backgroundColor='#3D8B3D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 28px rgba(76,175,80,0.6)' }}
-                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#4CAF50'; e.currentTarget.style.color='#111111'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
+                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#2D6A2D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
               >
                 Vraag een gratis offerte aan
                 <ArrowRight size={18} />
@@ -529,7 +529,7 @@ export default function HomeContent() {
                 className="inline-flex items-center justify-center gap-2 font-body font-semibold px-8 py-4 rounded-md transition-all duration-300 hover:scale-105"
                 style={{ backgroundColor: '#4CAF50', color: '#111111', boxShadow: '0 0 12px rgba(76,175,80,0.35)' }}
                 onMouseEnter={e => { e.currentTarget.style.backgroundColor='#3D8B3D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 28px rgba(76,175,80,0.6)' }}
-                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#4CAF50'; e.currentTarget.style.color='#111111'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
+                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#2D6A2D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
               >
                 Bel ons: 0493 96 74 17
               </a>

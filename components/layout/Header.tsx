@@ -88,7 +88,7 @@ export default function Header() {
             <div className="hidden lg:flex items-center">
               <Link
                 href="/contact"
-                className="font-body font-semibold text-sm bg-groen-neon text-wit px-5 py-2.5 rounded-md border border-groen-neon transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(76,175,80,0.6)] hover:bg-groen-helder hover:text-white"
+                className="font-body font-semibold text-sm bg-groen text-white px-5 py-2.5 rounded-md border border-groen transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(76,175,80,0.6)] hover:bg-groen-helder"
               >
                 Offerte aanvragen
               </Link>
@@ -188,7 +188,7 @@ export default function Header() {
                 <Link
                   href="/contact"
                   onClick={() => setMobileOpen(false)}
-                  className="block w-full text-center font-body font-semibold text-sm bg-groen-neon text-wit px-5 py-3 rounded-md hover:bg-groen-helder hover:text-white transition-all duration-300 hover:shadow-groen-glow"
+                  className="block w-full text-center font-body font-semibold text-sm bg-groen text-white px-5 py-3 rounded-md hover:bg-groen-helder hover:text-white transition-all duration-300 hover:shadow-groen-glow"
                 >
                   Offerte aanvragen
                 </Link>

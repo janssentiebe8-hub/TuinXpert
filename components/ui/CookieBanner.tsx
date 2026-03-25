@@ -73,7 +73,7 @@ export default function CookieBanner() {
                 <div className="flex flex-wrap gap-3 mt-5">
                   <button
                     onClick={saveConsent}
-                    className="font-body font-semibold text-sm bg-groen-neon text-wit px-5 py-2.5 rounded-md border border-groen-neon hover:bg-groen-helder hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-groen-glow"
+                    className="font-body font-semibold text-sm bg-groen text-white px-5 py-2.5 rounded-md border border-groen hover:bg-groen-helder transition-all duration-300 hover:scale-105 hover:shadow-groen-glow"
                   >
                     Begrepen
                   </button>
