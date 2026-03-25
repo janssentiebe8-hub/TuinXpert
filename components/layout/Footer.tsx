@@ -23,7 +23,6 @@ const services = [
   'Groenvoorziening & Beplanting',
   'Tuinrenovatie',
   'Afsluitingen & Tuinschermen',
-  'Tuinadvies & Tuinontwerp',
 ]
 
 export default function Footer() {

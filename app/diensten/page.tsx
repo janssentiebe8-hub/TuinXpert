@@ -82,15 +82,6 @@ const services = [
     description:
       'Wij plaatsen hekwerk en tuinschermen op maat voor afbakening, privacy of veiligheid — stijlvol en duurzaam afgewerkt. Van eenvoudige draadafsluiting tot strakke aluminium tuinschermen, wij bieden een oplossing voor elk budget en elke stijl in de Kempen-regio.',
   },
-  {
-    icon: Lightbulb,
-    nummer: '07',
-    title: 'Tuinadvies & Tuinontwerp',
-    h2: 'Tuinadvies & tuinontwerp',
-    subtitel: 'Tuinplan · Beplantingsplan · Persoonlijk Advies',
-    description:
-      'Niet zeker waar te beginnen? Wij bieden professioneel tuinadvies op maat. Als tuinarchitect in Mol stellen wij een gedetailleerd tuinplan en beplantingsplan op, afgestemd op uw wensen, budget en de omgeving. Zo weet u precies wat er gaat komen — voor de eerste spade de grond ingaat.',
-  },
 ]
 
 export default function DienstenPage() {
