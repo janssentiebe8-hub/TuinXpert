@@ -82,7 +82,7 @@ export async function POST(request: Request) {
           <tr>
             <td style="background-color:#1B6B5A;border-radius:12px 12px 0 0;padding:48px 48px 36px;text-align:center;">
               <div style="display:inline-block;margin-bottom:24px;">
-                <img src="https://tuinxpert.be/logo/TuinXpert-Logo-Full.svg" alt="TuinXpert" height="55" style="display:block;margin:0 auto 24px;" />
+                <img src="https://tuinxpert.be/logo/TuinXpert-Logo-Full.png" alt="TuinXpert" height="55" style="display:block;margin:0 auto 24px;" />
               </div>
               <div style="width:48px;height:2px;background-color:#6B8F71;margin:0 auto 24px;border-radius:2px;"></div>
               <h1 style="margin:0;font-family:Georgia,serif;font-size:26px;color:#ffffff;font-weight:normal;line-height:1.4;">
