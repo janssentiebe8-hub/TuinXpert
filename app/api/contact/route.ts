@@ -80,15 +80,15 @@ export async function POST(request: Request) {
       <td align="center">
         <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
           <tr>
-            <td style="background-color:#1B6B5A;border-radius:12px 12px 0 0;padding:48px 48px 36px;text-align:center;">
+            <td style="background-color:#ffffff;border-radius:12px 12px 0 0;padding:48px 48px 36px;text-align:center;border-top:5px solid #1B6B5A;">
               <div style="display:inline-block;margin-bottom:24px;">
-                <img src="https://tuinxpert.be/logo/TuinXpert-Logo_Full.png" alt="TuinXpert" height="60" style="display:block;filter:brightness(0) invert(1);" />
+                <img src="https://tuinxpert.be/logo/TuinXpert-Logo_Full.png" alt="TuinXpert" height="75" style="display:block;" />
               </div>
-              <div style="width:48px;height:2px;background-color:#6B8F71;margin:0 auto 24px;border-radius:2px;"></div>
-              <h1 style="margin:0;font-family:Georgia,serif;font-size:26px;color:#ffffff;font-weight:normal;line-height:1.4;">
+              <div style="width:48px;height:2px;background-color:#2D6A2D;margin:0 auto 24px;border-radius:2px;"></div>
+              <h1 style="margin:0;font-family:Georgia,serif;font-size:26px;color:#1B6B5A;font-weight:normal;line-height:1.4;">
                 Uw aanvraag is ontvangen
               </h1>
-              <p style="margin:12px 0 0;font-family:Arial,sans-serif;font-size:15px;color:#a8d5c5;line-height:1.6;">
+              <p style="margin:12px 0 0;font-family:Arial,sans-serif;font-size:15px;color:#555555;line-height:1.6;">
                 Bedankt voor uw interesse in TuinXpert
               </p>
             </td>
