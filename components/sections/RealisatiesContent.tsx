@@ -22,7 +22,7 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Oprit & kiezelaanleg',
+    title: 'Oprit en kiezelaanleg',
     category: 'Bestrating',
     location: 'Mol',
     year: 2024,
@@ -33,7 +33,7 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Oprit & kiezelaanleg',
+    title: 'Oprit en kiezelaanleg',
     category: 'Bestrating',
     location: 'Mol',
     year: 2024,
@@ -44,7 +44,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Oprit & kiezelaanleg',
+    title: 'Oprit en kiezelaanleg',
     category: 'Bestrating',
     location: 'Mol',
     year: 2024,
@@ -55,7 +55,7 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'Oprit & kiezelaanleg',
+    title: 'Oprit en kiezelaanleg',
     category: 'Bestrating',
     location: 'Mol',
     year: 2024,

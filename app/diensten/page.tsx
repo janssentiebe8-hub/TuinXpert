@@ -31,9 +31,9 @@ const services = [
   {
     icon: Layers,
     nummer: '01',
-    title: 'Bestrating & Terrassen',
-    h2: 'Bestrating & terrassen — opritten en paden',
-    subtitel: 'Opritten · Paden · Terrassen · Chape · Tegelen & Klinkeren',
+    title: 'Bestrating en terrassen',
+    h2: 'Bestrating en terrassen — opritten en paden',
+    subtitel: 'Opritten · Paden · Terrassen · Chape · Tegelen en Klinkeren',
     description:
       'Wij verzorgen de volledige aanleg van opritten, paden en terrassen in Mol en de Kempen. Of het nu gaat om klinkers leggen, tegelen of een betonnen chape — wij leveren een duurzame en verzorgde afwerking die past bij uw woning en tuin. Oprit aanleggen in de Kempen? TuinXpert staat voor u klaar.',
   },
@@ -42,7 +42,7 @@ const services = [
     nummer: '02',
     title: 'Tuinaanleg',
     h2: 'Tuinaanleg in Mol en omgeving',
-    subtitel: 'Uitgraven · Nivelleren · Volledig tuinontwerp & realisatie',
+    subtitel: 'Uitgraven · Nivelleren · Volledig tuinontwerp en realisatie',
     description:
       'Van grondwerken tot volledige tuinaanleg: wij zorgen voor een stabiele bodemvoorbereiding als fundament voor elk tuinproject. Als tuinarchitect in Mol begeleiden wij u van het eerste tuinplan tot de definitieve oplevering. Uw groenaanleg in de Kempen in vakkundige handen.',
   },
@@ -51,15 +51,15 @@ const services = [
     nummer: '03',
     title: 'Professioneel tuinonderhoud',
     h2: 'Professioneel tuinonderhoud in de Kempen',
-    subtitel: 'Gras maaien · Hagen snoeien · Bomen & Planten',
+    subtitel: 'Gras maaien · Hagen snoeien · Bomen en Planten',
     description:
       'Wij onderhouden uw tuin het hele jaar door in Mol, Geel, Balen en omstreken. Gazon maaien, snoeien van hagen en bomen, en het beheren van beplanting — zodat uw tuin er altijd verzorgd bij staat. Tuinonderhoud op abonnement beschikbaar voor particulieren en bedrijven in de Kempen.',
   },
   {
     icon: Sprout,
     nummer: '04',
-    title: 'Groenvoorziening & Beplanting',
-    h2: 'Groenvoorziening & beplanting',
+    title: 'Groenvoorziening en Beplanting',
+    h2: 'Groenvoorziening en Beplanting',
     subtitel: 'Bomen · Struiken · Vaste Planten · Gazon leggen',
     description:
       'Wij planten nieuwe bomen, struiken en vaste planten op de juiste locatie, of verplanten bestaande beplanting met de nodige vakkennis. Gazon leggen in Mol? Wij rollen een mooi gazon voor u uit of zaaien een stevig grasmat. Inheemse planten en duurzame groenvoorziening staan centraal.',
@@ -76,8 +76,8 @@ const services = [
   {
     icon: Fence,
     nummer: '06',
-    title: 'Afsluitingen & Tuinschermen',
-    h2: 'Afsluitingen & tuinschermen',
+    title: 'Afsluitingen en Tuinschermen',
+    h2: 'Afsluitingen en Tuinschermen',
     subtitel: 'Hekwerk · Schermen · Afbakening · Privacy',
     description:
       'Wij plaatsen hekwerk en tuinschermen op maat voor afbakening, privacy of veiligheid — stijlvol en duurzaam afgewerkt. Van eenvoudige draadafsluiting tot strakke aluminium tuinschermen, wij bieden een oplossing voor elk budget en elke stijl in de Kempen-regio.',

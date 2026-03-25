@@ -57,7 +57,7 @@ export default function HomeContent() {
                 variants={fadeInUp}
                 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-4 leading-tight max-w-3xl"
               >
-                Tuinaanleg & tuinonderhoud in Mol en de Kempen
+                Tuinaanleg en tuinonderhoud in Mol en de Kempen
               </motion.h1>
 
               <motion.p
@@ -229,7 +229,7 @@ export default function HomeContent() {
             {[
               {
                 icon: <Shovel size={32} />,
-                title: 'Tuinaanleg & Ontwerp',
+                title: 'Tuinaanleg en Ontwerp',
                 description:
                   'Van concept tot realisatie: wij ontwerpen en leggen uw droomtuin aan in Mol en omgeving. Volledig op maat, met een professioneel tuinplan en duurzame materialen.',
                 href: '/diensten',
@@ -243,7 +243,7 @@ export default function HomeContent() {
               },
               {
                 icon: <Square size={32} />,
-                title: 'Bestrating & Opritten',
+                title: 'Bestrating en Opritten',
                 description:
                   'Stijlvolle terrassen, opritten en paden in klinkers, tegels of natuursteen. Duurzaam, functioneel en esthetisch — door uw hovenier in Mol.',
                 href: '/diensten',
@@ -396,7 +396,7 @@ export default function HomeContent() {
               Werkgebied
             </span>
             <h2 className="font-heading text-4xl sm:text-5xl font-bold text-wit mt-3 mb-4">
-              Werkgebied: Mol, Geel, Turnhout & de Kempen
+              Werkgebied: Mol, Geel, Turnhout en de Kempen
             </h2>
             <p className="text-grijs font-body text-lg max-w-2xl mx-auto">
               Als hovenier in Mol zijn wij actief in de volledige Kempen-regio.

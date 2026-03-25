@@ -28,7 +28,7 @@ const values = [
   },
   {
     icon: <Shield size={28} />,
-    title: 'Kwaliteit & vakmanschap',
+    title: 'Kwaliteit en vakmanschap',
     description:
       'Elk project wordt met de grootste zorg en precisie uitgevoerd. Wij werken enkel met kwalitatieve materialen en leveranciers waarop wij kunnen vertrouwen.',
   },

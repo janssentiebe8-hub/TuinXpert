@@ -17,12 +17,12 @@ const legalLinks = [
 ]
 
 const services = [
-  'Bestrating & Terrassen',
+  'Bestrating en Terrassen',
   'Tuinaanleg',
   'Professioneel tuinonderhoud',
-  'Groenvoorziening & Beplanting',
+  'Groenvoorziening en Beplanting',
   'Tuinrenovatie',
-  'Afsluitingen & Tuinschermen',
+  'Afsluitingen en Tuinschermen',
 ]
 
 export default function Footer() {
