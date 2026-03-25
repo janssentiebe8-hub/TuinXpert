@@ -22,15 +22,15 @@ export const metadata: Metadata = {
 const values = [
   {
     icon: <Leaf size={28} />,
-    title: 'Passie voor natuur',
+    title: 'Liefde voor buiten',
     description:
-      'Wij werken elke dag met passie en respect voor de natuur. Duurzame materialen, inheemse planten en ecologische oplossingen staan centraal in onze aanpak.',
+      'Al van kinds af aan buiten. Die passie nemen we mee in elk project, groot of klein.',
   },
   {
     icon: <Shield size={28} />,
     title: 'Kwaliteit & vakmanschap',
     description:
-      'Elk project wordt met de grootste zorg en precisie uitgevoerd. Wij werken enkel met kwalitatieve materialen en leveranciers warop wij kunnen vertrouwen.',
+      'Elk project wordt met de grootste zorg en precisie uitgevoerd. Wij werken enkel met kwalitatieve materialen en leveranciers waarop wij kunnen vertrouwen.',
   },
   {
     icon: <Heart size={28} />,
@@ -132,9 +132,7 @@ export default function OverOnsPage() {
               Onze aanpak: van schets tot droomtuin
             </h2>
             <p className="text-grijs font-body text-lg max-w-2xl mx-auto">
-              Wij geloven dat elke tuin een verhaal vertelt. Ons doel is om dat
-              verhaal zo mooi mogelijk te maken — met vakmanschap, eerlijkheid
-              en een oprechte liefde voor groen.
+              Jouw tuin is voor ons geen project — het is jouw plek. We luisteren eerst, denken mee, en gaan pas aan de slag als we weten wat jij écht wil. Altijd eerlijk, altijd vakkundig.
             </p>
           </div>
 
