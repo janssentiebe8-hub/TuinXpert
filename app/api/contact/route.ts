@@ -80,12 +80,12 @@ export async function POST(request: Request) {
       <td align="center">
         <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
           <tr>
-            <td style="background-color:#ffffff;border-radius:12px 12px 0 0;padding:48px 48px 36px;text-align:center;border-top:5px solid #1B6B5A;">
+            <td style="background-color:#ffffff;border-radius:12px 12px 0 0;padding:48px 48px 36px;text-align:center;border-top:5px solid #4CAF50;">
               <div style="display:inline-block;margin-bottom:24px;">
                 <img src="https://tuinxpert.be/logo/TuinXpert-Logo_Full.png" alt="TuinXpert" height="75" style="display:block;" />
               </div>
-              <div style="width:48px;height:2px;background-color:#2D6A2D;margin:0 auto 24px;border-radius:2px;"></div>
-              <h1 style="margin:0;font-family:Georgia,serif;font-size:26px;color:#1B6B5A;font-weight:normal;line-height:1.4;">
+              <div style="width:48px;height:2px;background-color:#4CAF50;margin:0 auto 24px;border-radius:2px;"></div>
+              <h1 style="margin:0;font-family:Georgia,serif;font-size:26px;color:#4CAF50;font-weight:normal;line-height:1.4;">
                 Uw aanvraag is ontvangen
               </h1>
               <p style="margin:12px 0 0;font-family:Arial,sans-serif;font-size:15px;color:#555555;line-height:1.6;">
@@ -102,7 +102,7 @@ export async function POST(request: Request) {
                 We hebben uw offerte aanvraag goed ontvangen en zijn er al mee aan de slag. Binnen <strong>2 werkdagen</strong> nemen we contact met u op met een persoonlijk voorstel op maat van uw tuin.
               </p>
               <div style="border-top:1px solid #e8efe8;margin:32px 0;"></div>
-              <h2 style="margin:0 0 20px;font-family:Georgia,serif;font-size:18px;color:#1B6B5A;font-weight:normal;">
+              <h2 style="margin:0 0 20px;font-family:Georgia,serif;font-size:18px;color:#4CAF50;font-weight:normal;">
                 Uw aanvraag in het kort
               </h2>
               <table width="100%" cellpadding="0" cellspacing="0">
@@ -148,12 +148,12 @@ export async function POST(request: Request) {
                 </tr>
               </table>
               <div style="border-top:1px solid #e8efe8;margin:32px 0;"></div>
-              <h2 style="margin:0 0 20px;font-family:Georgia,serif;font-size:18px;color:#1B6B5A;font-weight:normal;">
+              <h2 style="margin:0 0 20px;font-family:Georgia,serif;font-size:18px;color:#4CAF50;font-weight:normal;">
                 Wat kunt u verwachten?
               </h2>
               <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td style="padding:14px 16px;background-color:#f4faf7;border-left:3px solid #1B6B5A;border-radius:0 6px 6px 0;">
+                  <td style="padding:14px 16px;background-color:#f4faf7;border-left:3px solid #4CAF50;border-radius:0 6px 6px 0;">
                     <span style="font-size:18px;">📞</span>
                     <span style="font-family:Arial,sans-serif;font-size:14px;color:#333333;margin-left:10px;"><strong>Persoonlijk contact</strong> – We bellen u op om uw wensen te bespreken</span>
                   </td>
@@ -162,7 +162,7 @@ export async function POST(request: Request) {
               <div style="height:10px;"></div>
               <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td style="padding:14px 16px;background-color:#f4faf7;border-left:3px solid #6B8F71;border-radius:0 6px 6px 0;">
+                  <td style="padding:14px 16px;background-color:#f4faf7;border-left:3px solid #4CAF50;border-radius:0 6px 6px 0;">
                     <span style="font-size:18px;">📋</span>
                     <span style="font-family:Arial,sans-serif;font-size:14px;color:#333333;margin-left:10px;"><strong>Offerte op maat</strong> – Transparante prijzen, geen verrassingen</span>
                   </td>
@@ -171,7 +171,7 @@ export async function POST(request: Request) {
               <div style="height:10px;"></div>
               <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td style="padding:14px 16px;background-color:#f4faf7;border-left:3px solid #1B6B5A;border-radius:0 6px 6px 0;">
+                  <td style="padding:14px 16px;background-color:#f4faf7;border-left:3px solid #4CAF50;border-radius:0 6px 6px 0;">
                     <span style="font-size:18px;">🌱</span>
                     <span style="font-family:Arial,sans-serif;font-size:14px;color:#333333;margin-left:10px;"><strong>Van schets tot droomtuin</strong> – Wij realiseren uw tuinproject van A tot Z</span>
                   </td>
@@ -179,11 +179,11 @@ export async function POST(request: Request) {
               </table>
               <div style="border-top:1px solid #e8efe8;margin:36px 0;"></div>
               <p style="margin:0 0 24px;font-family:Arial,sans-serif;font-size:15px;color:#555555;line-height:1.8;">
-                Heeft u nog vragen? Aarzel dan niet om ons te contacteren via <a href="mailto:info@tuinxpert.be" style="color:#1B6B5A;text-decoration:none;font-weight:bold;">info@tuinxpert.be</a> of bezoek onze website.
+                Heeft u nog vragen? Aarzel dan niet om ons te contacteren via <a href="mailto:info@tuinxpert.be" style="color:#4CAF50;text-decoration:none;font-weight:bold;">info@tuinxpert.be</a> of bezoek onze website.
               </p>
               <table cellpadding="0" cellspacing="0">
                 <tr>
-                  <td style="border-radius:6px;background-color:#1B6B5A;">
+                  <td style="border-radius:6px;background-color:#4CAF50;">
                     <a href="https://tuinxpert.be" style="display:inline-block;padding:14px 32px;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;color:#ffffff;text-decoration:none;letter-spacing:0.5px;">
                       Bezoek tuinxpert.be →
                     </a>
@@ -192,16 +192,16 @@ export async function POST(request: Request) {
               </table>
               <p style="margin:36px 0 0;font-family:Arial,sans-serif;font-size:15px;color:#555555;line-height:1.8;">
                 Met vriendelijke groeten,<br/>
-                <strong style="color:#1B6B5A;">Het TuinXpert team</strong>
+                <strong style="color:#4CAF50;">Het TuinXpert team</strong>
               </p>
             </td>
           </tr>
           <tr>
-            <td style="background-color:#1B6B5A;border-radius:0 0 12px 12px;padding:28px 48px;text-align:center;">
-              <p style="margin:0 0 8px;font-family:Arial,sans-serif;font-size:12px;color:#a8d5c5;">
-                TuinXpert · Mol, Kempen · <a href="mailto:info@tuinxpert.be" style="color:#a8d5c5;text-decoration:none;">info@tuinxpert.be</a>
+            <td style="background-color:#4CAF50;border-radius:0 0 12px 12px;padding:28px 48px;text-align:center;">
+              <p style="margin:0 0 8px;font-family:Arial,sans-serif;font-size:12px;color:#ffffff;">
+                TuinXpert · Mol, Kempen · <a href="mailto:info@tuinxpert.be" style="color:#ffffff;text-decoration:none;">info@tuinxpert.be</a>
               </p>
-              <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#6B8F71;">
+              <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.75);">
                 U ontvangt deze e-mail omdat u een offerte aanvraag heeft ingediend via tuinxpert.be
               </p>
             </td>
