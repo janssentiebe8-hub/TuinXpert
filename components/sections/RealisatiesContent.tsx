@@ -87,6 +87,28 @@ const projects: Project[] = [
     description: 'Kasseioprit gereinigd met hogedruk en zand terug in de voegen gezet.',
     size: 'wide',
   },
+  {
+    id: 7,
+    title: 'Chape gelegd op zolder',
+    category: 'Bestrating',
+    location: 'Mol',
+    year: 2025,
+    image: '/images/realisaties/4C421405-981B-4DA6-8EED-48759EED7F41.jpeg',
+    alt: 'Chape gelegd op zolder door TuinXpert — vloerchape zolderverdieping',
+    description: 'Chape gelegd op de zolderverdieping voor een vlakke en duurzame afwerking.',
+    size: 'normal',
+  },
+  {
+    id: 8,
+    title: 'Chape gelegd op zolder',
+    category: 'Bestrating',
+    location: 'Mol',
+    year: 2025,
+    image: '/images/realisaties/FB254EDF-C155-4782-9150-9699B5474877.jpeg',
+    alt: 'Chape gelegd op zolder door TuinXpert — vloerchape zolderverdieping',
+    description: 'Chape gelegd op de zolderverdieping voor een vlakke en duurzame afwerking.',
+    size: 'normal',
+  },
 ]
 
 const allCategories: Category[] = ['Alle', 'Tuinaanleg', 'Onderhoud', 'Bestrating', 'Groenvoorziening']
