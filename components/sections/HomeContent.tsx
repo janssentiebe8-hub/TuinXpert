@@ -195,7 +195,7 @@ export default function HomeContent() {
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover object-center"
-                  quality={80}
+                  quality={70}
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-groen-neon text-white rounded-2xl p-4 shadow-groen-glow text-center">
