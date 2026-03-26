@@ -17,8 +17,8 @@ module.exports = {
         grijs: '#444444',
       },
       fontFamily: {
-        heading: ['Playfair Display', 'Georgia', 'serif'],
-        body: ['DM Sans', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-playfair)', 'Georgia', 'serif'],
+        body: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         'groen-glow': '0 0 20px rgba(76, 175, 80, 0.4)',
