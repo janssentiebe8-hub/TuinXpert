@@ -202,7 +202,7 @@ export default function RealisatiesContent() {
               >
                 {cat}
                 {cat !== 'Alle' && (
-                  <span className="ml-1 text-xs opacity-70">
+                  <span className="ml-1 text-xs">
                     ({projects.filter((p) => p.category === cat).length})
                   </span>
                 )}
