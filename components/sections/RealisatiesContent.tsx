@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { WavingGrass, GrowingPlants } from '@/components/ui/NatureAnimations'
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
@@ -218,12 +219,13 @@ export default function RealisatiesContent() {
                   }}
                   onClick={() => openLightbox(index)}
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.alt}
-                    loading="lazy"
-                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    quality={80}
                   />
 
                   {/* Hover overlay */}
@@ -291,11 +293,14 @@ export default function RealisatiesContent() {
                 className="rounded-2xl overflow-hidden relative"
                 style={{ height: '70vh', minHeight: '400px' }}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={filtered[lightboxIndex].image}
                   alt={filtered[lightboxIndex].alt}
-                  className="w-full h-full object-contain bg-black"
+                  fill
+                  sizes="100vw"
+                  className="object-contain"
+                  quality={90}
+                  priority
                 />
               </motion.div>
 
