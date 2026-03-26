@@ -89,7 +89,7 @@ export default function DienstenPage() {
     <>
       {/* Hero */}
       <section
-        className="pt-24 sm:pt-32 pb-12 sm:pb-16 relative overflow-hidden"
+        className="pt-24 sm:pt-32 pb-6 sm:pb-8 relative overflow-hidden"
         style={{ background: 'linear-gradient(180deg, #F0F7F0 0%, #FFFFFF 100%)' }}
       >
         <div
@@ -115,7 +115,7 @@ export default function DienstenPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="section-padding bg-zwart relative overflow-hidden">
+      <section className="pt-8 sm:pt-12 pb-20 bg-zwart relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => {
