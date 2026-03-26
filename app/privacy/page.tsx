@@ -69,10 +69,10 @@ export default function PrivacyPage() {
                 <p className="text-grijs font-body">
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
-                    href="mailto:Info@TuinXpert.be"
+                    href="mailto:info@tuinxpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    Info@TuinXpert.be
+                    info@tuinxpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body">
@@ -260,10 +260,10 @@ export default function PrivacyPage() {
               <p className="text-grijs font-body leading-relaxed mt-4">
                 Om uw rechten uit te oefenen, kunt u ons een verzoek sturen via{' '}
                 <a
-                  href="mailto:Info@TuinXpert.be"
+                  href="mailto:info@tuinxpert.be"
                   className="text-groen-neon hover:underline"
                 >
-                  Info@TuinXpert.be
+                  info@tuinxpert.be
                 </a>
                 . Wij reageren binnen de wettelijke termijn van 30 dagen. Wij kunnen u verzoeken uw
                 identiteit te bevestigen voor de verwerking van uw verzoek.
@@ -336,10 +336,10 @@ export default function PrivacyPage() {
                 <p className="text-grijs font-body text-sm">
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
-                    href="mailto:Info@TuinXpert.be"
+                    href="mailto:info@tuinxpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    Info@TuinXpert.be
+                    info@tuinxpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body text-sm">

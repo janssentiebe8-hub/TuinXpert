@@ -340,7 +340,7 @@ export async function POST(request: Request) {
         },
         body: JSON.stringify({
           from: 'website@tuinxpert.be',
-          to: 'Info@TuinXpert.be',
+          to: 'info@tuinxpert.be',
           subject: `Nieuw contactbericht van ${naam}`,
           html: emailHtml,
           reply_to: email,

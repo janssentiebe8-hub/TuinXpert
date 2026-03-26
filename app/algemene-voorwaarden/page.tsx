@@ -264,10 +264,10 @@ export default function AlgemeneVoorwaardenPage() {
                 <p>
                   7.4 Klachten kunnen worden ingediend via:{' '}
                   <a
-                    href="mailto:Info@TuinXpert.be"
+                    href="mailto:info@tuinxpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    Info@TuinXpert.be
+                    info@tuinxpert.be
                   </a>
                 </p>
               </div>
@@ -374,10 +374,10 @@ export default function AlgemeneVoorwaardenPage() {
                 <p className="text-grijs font-body text-sm">
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
-                    href="mailto:Info@TuinXpert.be"
+                    href="mailto:info@tuinxpert.be"
                     className="text-groen-neon hover:underline"
                   >
-                    Info@TuinXpert.be
+                    info@tuinxpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body text-sm">

@@ -58,8 +58,8 @@ export default function ContactPage() {
                   {
                     icon: <Mail size={20} />,
                     label: 'E-mail',
-                    value: 'Info@TuinXpert.be',
-                    href: 'mailto:Info@TuinXpert.be',
+                    value: 'info@tuinxpert.be',
+                    href: 'mailto:info@tuinxpert.be',
                   },
                   {
                     icon: <Clock size={20} />,

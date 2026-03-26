@@ -129,10 +129,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-groen-neon flex-shrink-0" />
                 <a
-                  href="mailto:Info@TuinXpert.be"
+                  href="mailto:info@tuinxpert.be"
                   className="font-body text-grijs text-sm hover:text-groen-neon transition-colors duration-200 break-all"
                 >
-                  Info@TuinXpert.be
+                  info@tuinxpert.be
                 </a>
               </div>
               <div className="flex items-start gap-3">
@@ -165,10 +165,10 @@ export default function Footer() {
             <p>
               <strong className="text-wit">E-mail voor klachten:</strong>{' '}
               <a
-                href="mailto:Info@TuinXpert.be"
+                href="mailto:info@tuinxpert.be"
                 className="text-groen-neon hover:underline"
               >
-                Info@TuinXpert.be
+                info@tuinxpert.be
               </a>
             </p>
           </div>
