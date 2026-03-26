@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import ReactDOM from 'react-dom'
 import HomeContent from '@/components/sections/HomeContent'
 
 export const metadata: Metadata = {
@@ -77,6 +78,7 @@ const localBusinessJsonLd = {
 }
 
 export default function HomePage() {
+  ReactDOM.preload('/images/hero.jpg', { as: 'image' })
   return (
     <>
       <script
