@@ -179,11 +179,13 @@ export default function HomeContent() {
               className="relative"
             >
               <div className="rounded-2xl overflow-hidden h-96 lg:h-[500px] relative">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src="/images/over.ons.home.pagina.foto.jpeg"
                   alt="TuinXpert hovenier aan het werk in een tuin in de Kempen"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover object-center"
+                  quality={80}
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-groen-neon text-white rounded-2xl p-4 shadow-groen-glow text-center">
@@ -344,12 +346,13 @@ export default function HomeContent() {
                 variants={fadeInUp}
                 className="group relative rounded-2xl overflow-hidden h-72 cursor-pointer"
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={project.image}
                   alt={project.alt}
-                  loading="lazy"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover"
+                  quality={80}
                 />
                 <div className="absolute inset-0 bg-groen bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-400 flex items-end">
                   <div className="p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
