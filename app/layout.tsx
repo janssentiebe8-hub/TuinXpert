@@ -60,7 +60,10 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: '/images/favicon/TuinXpert-Logo-Secundair.png',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/images/favicon/TuinXpert-Logo-Secundair.png', type: 'image/png' },
+    ],
   },
 }
 

@@ -162,6 +162,7 @@ export default function Header() {
                   href="/"
                   className="flex items-center"
                   onClick={() => setMobileOpen(false)}
+                  tabIndex={-1}
                 >
                   <Image
                     src="/images/logo/TuinXpert-Logo-Full.svg"

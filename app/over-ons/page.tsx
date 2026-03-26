@@ -15,6 +15,11 @@ export const metadata: Metadata = {
     description:
       'Maak kennis met TuinXpert — uw betrouwbare hovenier in Mol. Passie voor tuinaanleg en groenonderhoud in de Kempen.',
     url: 'https://www.tuinxpert.be/over-ons',
+    images: [{ url: 'https://www.tuinxpert.be/images/hero.jpg', width: 1200, height: 630, alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen' }],
+  },
+  twitter: {
+    title: 'Over TuinXpert | Uw Hovenier in Mol, Kempen',
+    description: 'Maak kennis met TuinXpert — uw betrouwbare hovenier in Mol. Passie voor tuinaanleg en groenonderhoud in de Kempen.',
   },
 }
 

@@ -22,6 +22,11 @@ export const metadata: Metadata = {
     description:
       'Alles wat u wil weten over tuinaanleg, onderhoud en tarieven in Mol en de Kempen. TuinXpert — Van schets tot droomtuin.',
     url: 'https://www.tuinxpert.be/faq',
+    images: [{ url: 'https://www.tuinxpert.be/images/hero.jpg', width: 1200, height: 630, alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen' }],
+  },
+  twitter: {
+    title: 'Veelgestelde Vragen | TuinXpert Mol',
+    description: 'Alles wat u wil weten over tuinaanleg, onderhoud en tarieven in Mol en de Kempen. TuinXpert — Van schets tot droomtuin.',
   },
 }
 
