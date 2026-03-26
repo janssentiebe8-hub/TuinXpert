@@ -84,9 +84,73 @@ const services = [
   },
 ]
 
+const servicesJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Service',
+      name: 'Bestrating en terrassen',
+      description:
+        'Wij verzorgen de volledige aanleg van opritten, paden en terrassen in Mol en de Kempen. Of het nu gaat om klinkers leggen, tegelen of een betonnen chape — wij leveren een duurzame en verzorgde afwerking die past bij uw woning en tuin.',
+      provider: { '@type': 'LocalBusiness', name: 'TuinXpert', url: 'https://www.tuinxpert.be' },
+      areaServed: { '@type': 'City', name: 'Mol' },
+      serviceType: 'Bestrating',
+    },
+    {
+      '@type': 'Service',
+      name: 'Tuinaanleg',
+      description:
+        'Van grondwerken tot volledige tuinaanleg: wij zorgen voor een stabiele bodemvoorbereiding als fundament voor elk tuinproject. Als tuinarchitect in Mol begeleiden wij u van het eerste tuinplan tot de definitieve oplevering.',
+      provider: { '@type': 'LocalBusiness', name: 'TuinXpert', url: 'https://www.tuinxpert.be' },
+      areaServed: { '@type': 'City', name: 'Mol' },
+      serviceType: 'Tuinaanleg',
+    },
+    {
+      '@type': 'Service',
+      name: 'Professioneel tuinonderhoud',
+      description:
+        'Wij onderhouden uw tuin het hele jaar door in Mol, Geel, Balen en omstreken. Gazon maaien, snoeien van hagen en bomen, en het beheren van beplanting — zodat uw tuin er altijd verzorgd bij staat.',
+      provider: { '@type': 'LocalBusiness', name: 'TuinXpert', url: 'https://www.tuinxpert.be' },
+      areaServed: { '@type': 'City', name: 'Mol' },
+      serviceType: 'Tuinonderhoud',
+    },
+    {
+      '@type': 'Service',
+      name: 'Groenvoorziening en Beplanting',
+      description:
+        'Wij planten nieuwe bomen, struiken en vaste planten op de juiste locatie, of verplanten bestaande beplanting met de nodige vakkennis. Inheemse planten en duurzame groenvoorziening staan centraal.',
+      provider: { '@type': 'LocalBusiness', name: 'TuinXpert', url: 'https://www.tuinxpert.be' },
+      areaServed: { '@type': 'City', name: 'Mol' },
+      serviceType: 'Groenvoorziening',
+    },
+    {
+      '@type': 'Service',
+      name: 'Tuinrenovatie',
+      description:
+        'TuinXpert verzorgt tuinrenovaties in Mol en de Kempen: bestaande tuinen volledig vernieuwen met nieuwe beplanting, verharding, verlichting en structuur. Van kleine opfrissing tot volledige heraanleg.',
+      provider: { '@type': 'LocalBusiness', name: 'TuinXpert', url: 'https://www.tuinxpert.be' },
+      areaServed: { '@type': 'City', name: 'Mol' },
+      serviceType: 'Tuinrenovatie',
+    },
+    {
+      '@type': 'Service',
+      name: 'Afsluitingen en Tuinschermen',
+      description:
+        'Wij plaatsen hekwerk en tuinschermen op maat voor afbakening, privacy of veiligheid — stijlvol en duurzaam afgewerkt. Van eenvoudige draadafsluiting tot strakke aluminium tuinschermen.',
+      provider: { '@type': 'LocalBusiness', name: 'TuinXpert', url: 'https://www.tuinxpert.be' },
+      areaServed: { '@type': 'City', name: 'Mol' },
+      serviceType: 'Afsluitingen',
+    },
+  ],
+}
+
 export default function DienstenPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesJsonLd) }}
+      />
       {/* Hero */}
       <section
         className="pt-24 sm:pt-32 pb-6 sm:pb-8 relative overflow-hidden"
