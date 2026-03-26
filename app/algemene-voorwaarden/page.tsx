@@ -265,7 +265,7 @@ export default function AlgemeneVoorwaardenPage() {
                   7.4 Klachten kunnen worden ingediend via:{' '}
                   <a
                     href="mailto:info@tuinxpert.be"
-                    className="text-groen-neon hover:underline"
+                    className="text-groen-neon underline"
                   >
                     info@tuinxpert.be
                   </a>
@@ -293,7 +293,7 @@ export default function AlgemeneVoorwaardenPage() {
               </h2>
               <p className="text-grijs font-body leading-relaxed">
                 TuinXpert verwerkt persoonsgegevens conform de AVG/GDPR. Raadpleeg ons{' '}
-                <Link href="/privacy" className="text-groen-neon hover:underline">
+                <Link href="/privacy" className="text-groen-neon underline">
                   privacybeleid
                 </Link>{' '}
                 voor alle informatie over de verwerking van uw persoonsgegevens.
@@ -341,7 +341,7 @@ export default function AlgemeneVoorwaardenPage() {
                     href="https://ec.europa.eu/consumers/odr"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-groen-neon hover:underline"
+                    className="text-groen-neon underline"
                   >
                     https://ec.europa.eu/consumers/odr
                   </a>
@@ -375,14 +375,14 @@ export default function AlgemeneVoorwaardenPage() {
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
                     href="mailto:info@tuinxpert.be"
-                    className="text-groen-neon hover:underline"
+                    className="text-groen-neon underline"
                   >
                     info@tuinxpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body text-sm">
                   <strong className="text-wit">Telefoon:</strong>{' '}
-                  <a href="tel:0493967417" className="text-groen-neon hover:underline">
+                  <a href="tel:0493967417" className="text-groen-neon underline">
                     0493 96 74 17
                   </a>
                 </p>

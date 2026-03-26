@@ -156,7 +156,7 @@ export default function CookiesPage() {
                 Heeft u vragen over ons cookiebeleid? Neem contact op via{' '}
                 <a
                   href="mailto:info@tuinxpert.be"
-                  className="text-groen-neon hover:underline"
+                  className="text-groen-neon underline"
                 >
                   info@tuinxpert.be
                 </a>

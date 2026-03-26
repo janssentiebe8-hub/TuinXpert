@@ -1,23 +1,57 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, DM_Sans } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import CookieBanner from '@/components/ui/CookieBanner'
 import ScrollToTop from '@/components/ui/ScrollToTop'
 
-const playfairDisplay = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
+const playfairDisplay = localFont({
+  src: [
+    { path: '../public/fonts/playfair/latin_ext_400_normal.woff2', weight: '400', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_400_normal.woff2', weight: '400', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_ext_400_italic.woff2', weight: '400', style: 'italic' },
+    { path: '../public/fonts/playfair/latin_400_italic.woff2', weight: '400', style: 'italic' },
+    { path: '../public/fonts/playfair/latin_ext_500_normal.woff2', weight: '500', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_500_normal.woff2', weight: '500', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_ext_600_normal.woff2', weight: '600', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_600_normal.woff2', weight: '600', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_ext_700_normal.woff2', weight: '700', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_700_normal.woff2', weight: '700', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_ext_700_italic.woff2', weight: '700', style: 'italic' },
+    { path: '../public/fonts/playfair/latin_700_italic.woff2', weight: '700', style: 'italic' },
+    { path: '../public/fonts/playfair/latin_ext_800_normal.woff2', weight: '800', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_800_normal.woff2', weight: '800', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_ext_900_normal.woff2', weight: '900', style: 'normal' },
+    { path: '../public/fonts/playfair/latin_900_normal.woff2', weight: '900', style: 'normal' },
+  ],
   variable: '--font-playfair',
   display: 'swap',
 })
 
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  style: ['normal', 'italic'],
+const dmSans = localFont({
+  src: [
+    { path: '../public/fonts/dm-sans/latin_ext_300_normal.woff2', weight: '300', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_300_normal.woff2', weight: '300', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_ext_300_italic.woff2', weight: '300', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_300_italic.woff2', weight: '300', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_ext_400_normal.woff2', weight: '400', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_400_normal.woff2', weight: '400', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_ext_400_italic.woff2', weight: '400', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_400_italic.woff2', weight: '400', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_ext_500_normal.woff2', weight: '500', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_500_normal.woff2', weight: '500', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_ext_500_italic.woff2', weight: '500', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_500_italic.woff2', weight: '500', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_ext_600_normal.woff2', weight: '600', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_600_normal.woff2', weight: '600', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_ext_600_italic.woff2', weight: '600', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_600_italic.woff2', weight: '600', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_ext_700_normal.woff2', weight: '700', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_700_normal.woff2', weight: '700', style: 'normal' },
+    { path: '../public/fonts/dm-sans/latin_ext_700_italic.woff2', weight: '700', style: 'italic' },
+    { path: '../public/fonts/dm-sans/latin_700_italic.woff2', weight: '700', style: 'italic' },
+  ],
   variable: '--font-dm-sans',
   display: 'swap',
 })

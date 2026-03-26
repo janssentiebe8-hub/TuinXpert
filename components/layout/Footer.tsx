@@ -166,7 +166,7 @@ export default function Footer() {
               <strong className="text-wit">E-mail voor klachten:</strong>{' '}
               <a
                 href="mailto:info@tuinxpert.be"
-                className="text-groen-neon hover:underline"
+                className="text-groen-neon underline"
               >
                 info@tuinxpert.be
               </a>

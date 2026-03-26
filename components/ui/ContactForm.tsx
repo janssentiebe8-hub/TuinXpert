@@ -190,7 +190,7 @@ export default function ContactForm() {
       {/* Privacy notice */}
       <p className="font-body text-grijs text-xs leading-relaxed">
         Door dit formulier in te dienen, gaat u akkoord met ons{' '}
-        <a href="/privacy" className="text-groen-neon hover:underline">
+        <a href="/privacy" className="text-groen-neon underline">
           privacybeleid
         </a>
         . Wij verwerken uw gegevens uitsluitend om uw vraag te beantwoorden.

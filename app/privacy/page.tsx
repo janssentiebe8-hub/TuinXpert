@@ -70,14 +70,14 @@ export default function PrivacyPage() {
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
                     href="mailto:info@tuinxpert.be"
-                    className="text-groen-neon hover:underline"
+                    className="text-groen-neon underline"
                   >
                     info@tuinxpert.be
                   </a>
                 </p>
                 <p className="text-grijs font-body">
                   <strong className="text-wit">Telefoon:</strong>{' '}
-                  <a href="tel:0493967417" className="text-groen-neon hover:underline">
+                  <a href="tel:0493967417" className="text-groen-neon underline">
                     0493 96 74 17
                   </a>
                 </p>
@@ -261,7 +261,7 @@ export default function PrivacyPage() {
                 Om uw rechten uit te oefenen, kunt u ons een verzoek sturen via{' '}
                 <a
                   href="mailto:info@tuinxpert.be"
-                  className="text-groen-neon hover:underline"
+                  className="text-groen-neon underline"
                 >
                   info@tuinxpert.be
                 </a>
@@ -291,7 +291,7 @@ export default function PrivacyPage() {
                     href="https://www.gegevensbeschermingsautoriteit.be"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-groen-neon hover:underline"
+                    className="text-groen-neon underline"
                   >
                     www.gegevensbeschermingsautoriteit.be
                   </a>
@@ -337,7 +337,7 @@ export default function PrivacyPage() {
                   <strong className="text-wit">E-mail:</strong>{' '}
                   <a
                     href="mailto:info@tuinxpert.be"
-                    className="text-groen-neon hover:underline"
+                    className="text-groen-neon underline"
                   >
                     info@tuinxpert.be
                   </a>

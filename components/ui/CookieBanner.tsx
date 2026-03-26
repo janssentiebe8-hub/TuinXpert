@@ -63,7 +63,7 @@ export default function CookieBanner() {
                   marketingcookies. Lees meer in ons{' '}
                   <Link
                     href="/cookies"
-                    className="text-groen-neon hover:underline"
+                    className="text-groen-neon underline"
                     onClick={saveConsent}
                   >
                     cookiebeleid
