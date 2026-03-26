@@ -92,9 +92,9 @@ export const metadata: Metadata = {
       'TuinXpert uit Mol — specialist in tuinaanleg, tuinonderhoud & bestrating in de Kempen. Van schets tot droomtuin.',
     images: [
       {
-        url: 'https://www.tuinxpert.be/images/hero.jpg',
-        width: 1200,
-        height: 630,
+        url: 'https://www.tuinxpert.be/images/hero-poster-desktop.webp',
+        width: 1280,
+        height: 720,
         alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen',
       },
     ],
@@ -104,7 +104,7 @@ export const metadata: Metadata = {
     title: 'TuinXpert Mol | Tuinaanleg & Tuinonderhoud in de Kempen',
     description:
       'TuinXpert uit Mol — specialist in tuinaanleg, tuinonderhoud & bestrating in de Kempen. Van schets tot droomtuin.',
-    images: ['https://www.tuinxpert.be/images/hero.jpg'],
+    images: ['https://www.tuinxpert.be/images/hero-poster-desktop.webp'],
   },
   robots: {
     index: true,

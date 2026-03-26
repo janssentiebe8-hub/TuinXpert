@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { useEffect, useRef } from 'react'
 import { WavingGrass, GrowingPlants } from '@/components/ui/NatureAnimations'
 import {
   Shovel,
@@ -30,17 +31,26 @@ const staggerContainer = {
 }
 
 export default function HomeContent() {
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    if (videoRef.current && window.innerWidth >= 768) {
+      videoRef.current.poster = '/images/hero-poster-desktop.webp'
+    }
+  }, [])
+
   return (
     <>
       {/* Hero Section */}
       <section className="relative h-screen min-h-screen overflow-hidden">
         <video
+          ref={videoRef}
           autoPlay
           loop
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover object-center"
-          poster="/images/hero.jpg"
+          poster="/images/hero-poster-mobile.webp"
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>

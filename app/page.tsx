@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: 'https://www.tuinxpert.be',
     images: [
       {
-        url: 'https://www.tuinxpert.be/images/hero.jpg',
+        url: 'https://www.tuinxpert.be/images/hero-poster-desktop.webp',
         width: 1200,
         height: 630,
         alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen',
@@ -73,12 +73,12 @@ const localBusinessJsonLd = {
   ],
   openingHours: 'Mo-Fr 08:00-18:00',
   priceRange: '€€',
-  image: 'https://www.tuinxpert.be/images/hero.jpg',
+  image: 'https://www.tuinxpert.be/images/hero-poster-desktop.webp',
   sameAs: [] as string[],
 }
 
 export default function HomePage() {
-  ReactDOM.preload('/images/hero.jpg', { as: 'image' })
+  ReactDOM.preload('/images/hero-poster-mobile.webp', { as: 'image' })
   return (
     <>
       <script

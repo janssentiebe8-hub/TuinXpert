@@ -4,7 +4,7 @@ import { useState, useCallback } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { WavingGrass, GrowingPlants } from '@/components/ui/NatureAnimations'
-import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
+import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 
 type Category = 'Alle' | 'Tuinaanleg' | 'Onderhoud' | 'Bestrating' | 'Groenvoorziening'
 
