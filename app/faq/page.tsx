@@ -17,7 +17,7 @@ const faqs = [
   {
     vraag: 'In welke regio is TuinXpert actief?',
     antwoord:
-      'Wij zijn voornamelijk actief in de Kempen, met Mol als thuisbasis. Wij werken in de ruime omgeving van Mol, Geel, Balen, Herentals, Westerlo, Laakdal en andere gemeenten in de Antwerpse Kempen. Twijfelt u of uw gemeente in ons werkgebied valt? Neem gerust contact op — wij bekijken het graag voor u.',
+      'Wij zijn voornamelijk actief in de Kempen en de Limburgse grensstreek, met Mol als thuisbasis. Wij werken in de ruime omgeving van Mol, Geel, Balen, Dessel, Retie, Meerhout, Turnhout, Lommel, Neerpelt en andere gemeenten in de Kempen en Limburg. Twijfelt u of uw gemeente in ons werkgebied valt? Neem gerust contact op — wij bekijken het graag voor u.',
     categorie: 'Werkgebied',
   },
   {

@@ -155,7 +155,7 @@ export default function HomeContent() {
                 Van schets tot droomtuin
               </h2>
               <p className="text-grijs font-body text-lg leading-relaxed mb-6">
-                TuinXpert is het verhaal van Xandro, een jonge en gedreven hovenier uit Mol, actief in de regio Mol, Geel, Balen, Turnhout en Lommel. Met een sterke passie voor tuinaanleg en tuinonderhoud creëert hij buitenruimtes waar mensen tot rust komen en genieten.
+                TuinXpert is het verhaal van Xandro, een jonge en gedreven hovenier uit Mol, actief in de Kempen en de Limburgse grensstreek. Met een sterke passie voor tuinaanleg en tuinonderhoud creëert hij buitenruimtes waar mensen tot rust komen en genieten.
               </p>
               <p className="text-grijs font-body text-lg leading-relaxed mb-6">
                 Met een achtergrond in de bouwsector staat TuinXpert garant voor nauwkeurigheid, kwaliteit en een praktische aanpak. Elk project wordt met zorg en oog voor detail uitgevoerd.
@@ -422,7 +422,7 @@ export default function HomeContent() {
             viewport={{ once: true }}
             className="flex flex-wrap justify-center gap-3"
           >
-            {['Mol', 'Balen', 'Dessel', 'Geel', 'Retie', 'Meerhout', 'Turnhout', 'Lommel', 'Kempen-regio'].map((place) => (
+            {['Mol', 'Balen', 'Dessel', 'Geel', 'Retie', 'Meerhout', 'Turnhout', 'Lommel', 'Neerpelt', 'Overpelt', 'Kempen & Limburg'].map((place) => (
               <span
                 key={place}
                 className="inline-flex items-center gap-1.5 bg-donker border border-groen border-opacity-20 text-grijs font-body text-sm px-4 py-2 rounded-full hover:border-groen-neon hover:text-groen-neon transition-all duration-300"

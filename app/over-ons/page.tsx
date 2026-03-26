@@ -6,7 +6,7 @@ import { Heart, Shield, Leaf } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Over TuinXpert | Uw Hovenier in Mol, Kempen',
   description:
-    'Maak kennis met TuinXpert — uw betrouwbare hovenier in Mol. Passie voor tuinaanleg en groenonderhoud in de Kempen. Meer dan 10 jaar vakmanschap.',
+    'Maak kennis met TuinXpert — uw betrouwbare hovenier in Mol. Passie voor tuinaanleg en groenonderhoud in de Kempen. 5+ jaar vakmanschap.',
   alternates: {
     canonical: 'https://www.tuinxpert.be/over-ons',
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       'Maak kennis met TuinXpert — uw betrouwbare hovenier in Mol. Passie voor tuinaanleg en groenonderhoud in de Kempen.',
     url: 'https://www.tuinxpert.be/over-ons',
-    images: [{ url: 'https://www.tuinxpert.be/images/hero.jpg', width: 1200, height: 630, alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen' }],
+    images: [{ url: 'https://www.tuinxpert.be/images/hero-poster-desktop.webp', width: 1200, height: 630, alt: 'TuinXpert — Tuinaanleg en tuinonderhoud in Mol en de Kempen' }],
   },
   twitter: {
     title: 'Over TuinXpert | Uw Hovenier in Mol, Kempen',
@@ -115,7 +115,7 @@ export default function OverOnsPage() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/realisaties/foto10.jpeg"
-                  alt="TuinXpert realisatie"
+                  alt="Aangelegde oprit met betonnen tegels en kiezelstroken door TuinXpert in Mol"
                   className="w-full h-full object-cover"
                 />
               </div>
