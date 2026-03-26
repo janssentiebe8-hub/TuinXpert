@@ -14,16 +14,24 @@ export default function CookiesPage() {
       {/* Hero */}
       <section
         className="pt-32 pb-12 relative overflow-hidden"
-        style={{ background: 'linear-gradient(180deg, #111111 0%, #0A0A0A 100%)' }}
+        style={{ background: 'linear-gradient(180deg, #2D6A2D 0%, #1e4d1e 100%)' }}
       >
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-groen-neon font-body font-semibold text-sm tracking-widest uppercase">
+        <div
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage:
+              'linear-gradient(rgba(255,255,255,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px)',
+            backgroundSize: '60px 60px',
+          }}
+        />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <span className="text-green-200 font-body font-semibold text-sm tracking-widest uppercase">
             Juridisch
           </span>
-          <h1 className="font-heading text-4xl sm:text-5xl font-bold text-wit mt-3 mb-5">
+          <h1 className="font-heading text-4xl sm:text-5xl font-bold text-white mt-3 mb-5">
             Cookiebeleid
           </h1>
-          <p className="text-grijs font-body">Laatste update: januari 2025</p>
+          <p className="text-green-200 font-body">Laatste update: januari 2025</p>
         </div>
       </section>
 
