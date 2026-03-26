@@ -46,7 +46,7 @@ const localBusinessJsonLd = {
   description: 'Tuinaanleg en tuinonderhoud in Mol en de Kempen',
   url: 'https://www.tuinxpert.be',
   telephone: '+32493967417',
-  email: 'Info@TuinXpert.be',
+  email: 'info@tuinxpert.be',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Feynend 8',
