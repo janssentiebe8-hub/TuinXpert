@@ -211,7 +211,7 @@ export default function HomeContent() {
               Onze diensten
             </span>
             <h2 className="font-heading text-4xl sm:text-5xl font-bold text-wit mt-3 mb-4">
-              Onze diensten — van tuinontwerp tot onderhoud
+              Onze diensten — van tuinaanleg tot onderhoud
             </h2>
             <p className="text-grijs font-body text-lg max-w-2xl mx-auto">
               Van tuinontwerp tot dagelijks onderhoud — wij bieden een volledig pakket
@@ -229,9 +229,9 @@ export default function HomeContent() {
             {[
               {
                 icon: <Shovel size={32} />,
-                title: 'Tuinaanleg en Ontwerp',
+                title: 'Tuinaanleg',
                 description:
-                  'Van concept tot realisatie: wij ontwerpen en leggen uw droomtuin aan in Mol en omgeving. Volledig op maat, met een professioneel tuinplan en duurzame materialen.',
+                  'Van concept tot realisatie: wij leggen uw droomtuin aan in Mol en omgeving. Volledig op maat, met duurzame materialen en vakkundige uitvoering.',
                 href: '/diensten',
               },
               {
@@ -308,8 +308,7 @@ export default function HomeContent() {
               Trots op elk project
             </h2>
             <p className="text-grijs font-body text-lg max-w-2xl mx-auto">
-              Van strakke bestrating tot weelderig groen — ontdek een greep uit onze
-              afgewerkte projecten in de Kempen.
+              Van strakke bestrating tot weelderig groen — ontdek onze reeds afgewerkte projecten in de Kempen.
             </p>
           </motion.div>
 
