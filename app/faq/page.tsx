@@ -129,7 +129,7 @@ export default function FaqPage() {
           }}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center mb-3">
             <Image
               src="/images/logo/TuinXpert-Logo-Full.svg"
               alt="TuinXpert"
