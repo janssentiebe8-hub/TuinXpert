@@ -516,9 +516,9 @@ export default function HomeContent() {
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 font-body font-semibold px-8 py-4 rounded-md transition-all duration-300 hover:scale-105"
-                style={{ backgroundColor: '#2C632F', color: '#ffffff', boxShadow: '0 0 12px rgba(76,175,80,0.35)' }}
-                onMouseEnter={e => { e.currentTarget.style.backgroundColor='#3D8B3D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 28px rgba(76,175,80,0.6)' }}
-                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#2C632F'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
+                style={{ backgroundColor: '#ffffff', color: '#2C632F', boxShadow: '0 0 12px rgba(255,255,255,0.25)' }}
+                onMouseEnter={e => { e.currentTarget.style.backgroundColor='#f0f7f0'; e.currentTarget.style.boxShadow='0 0 28px rgba(255,255,255,0.45)' }}
+                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(255,255,255,0.25)' }}
               >
                 Vraag een gratis offerte aan
                 <ArrowRight size={18} />
@@ -526,9 +526,9 @@ export default function HomeContent() {
               <a
                 href="tel:0493967417"
                 className="inline-flex items-center justify-center gap-2 font-body font-semibold px-8 py-4 rounded-md transition-all duration-300 hover:scale-105"
-                style={{ backgroundColor: '#2C632F', color: '#ffffff', boxShadow: '0 0 12px rgba(76,175,80,0.35)' }}
-                onMouseEnter={e => { e.currentTarget.style.backgroundColor='#3D8B3D'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 28px rgba(76,175,80,0.6)' }}
-                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#2C632F'; e.currentTarget.style.color='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(76,175,80,0.35)' }}
+                style={{ backgroundColor: '#ffffff', color: '#2C632F', boxShadow: '0 0 12px rgba(255,255,255,0.25)' }}
+                onMouseEnter={e => { e.currentTarget.style.backgroundColor='#f0f7f0'; e.currentTarget.style.boxShadow='0 0 28px rgba(255,255,255,0.45)' }}
+                onMouseLeave={e => { e.currentTarget.style.backgroundColor='#ffffff'; e.currentTarget.style.boxShadow='0 0 12px rgba(255,255,255,0.25)' }}
               >
                 Bel ons: 0493 96 74 17
               </a>
