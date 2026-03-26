@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
@@ -19,6 +19,31 @@ const navLinks = [
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const pathname = usePathname()
+  const drawerRef = useRef<HTMLDivElement>(null)
+
+  // Focus trap in mobile menu
+  useEffect(() => {
+    if (!mobileOpen) return
+    const drawer = drawerRef.current
+    if (!drawer) return
+    const focusable = drawer.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled])'
+    )
+    const first = focusable[0]
+    const last = focusable[focusable.length - 1]
+    first?.focus()
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') { setMobileOpen(false); return }
+      if (e.key !== 'Tab') return
+      if (e.shiftKey) {
+        if (document.activeElement === first) { e.preventDefault(); last?.focus() }
+      } else {
+        if (document.activeElement === last) { e.preventDefault(); first?.focus() }
+      }
+    }
+    drawer.addEventListener('keydown', handler)
+    return () => drawer.removeEventListener('keydown', handler)
+  }, [mobileOpen])
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -128,6 +153,7 @@ export default function Header() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 30, stiffness: 300 }}
+              ref={drawerRef}
               className="fixed right-0 top-0 bottom-0 w-72 bg-donker z-40 lg:hidden flex flex-col shadow-2xl"
             >
               {/* Drawer header */}

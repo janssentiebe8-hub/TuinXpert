@@ -124,7 +124,7 @@ export default function HomeContent() {
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <ChevronDown size={28} />
+          <ChevronDown size={28} aria-hidden="true" />
         </motion.div>
       </section>
 
