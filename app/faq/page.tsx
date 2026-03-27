@@ -48,11 +48,11 @@ const faqs = [
 
 const categorieBadgeKleur: Record<string, string> = {
   Diensten: 'bg-groen text-white',
-  Werkgebied: 'bg-groen-helder text-white',
-  Offerte: 'bg-groen-neon text-white',
+  Werkgebied: 'bg-groen text-white',
+  Offerte: 'bg-groen text-white',
   Planning: 'bg-groen text-white',
-  Kwaliteit: 'bg-groen-helder text-white',
-  Prijzen: 'bg-groen-neon text-white',
+  Kwaliteit: 'bg-groen text-white',
+  Prijzen: 'bg-groen text-white',
 }
 
 function FaqItem({ faq, index }: { faq: typeof faqs[0]; index: number }) {
