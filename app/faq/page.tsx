@@ -11,7 +11,7 @@ const faqs = [
   {
     vraag: 'Welke diensten biedt TuinXpert aan?',
     antwoord:
-      'TuinXpert biedt een volledig pakket aan tuindiensten: tuinaanleg & tuinontwerp op maat, periodiek tuinonderhoud, tuinrenovatie van bestaande tuinen, en professionele bestrating van terrassen, opritten en tuinpaden. Of u nu een volledig nieuwe tuin wilt of uw bestaande tuin wil vernieuwen — wij verzorgen het van A tot Z.',
+      'TuinXpert biedt 6 tuindiensten aan: tuinaanleg & tuinontwerp, professioneel tuinonderhoud, bestrating & terrassen, groenvoorziening & beplanting, tuinrenovatie van bestaande tuinen, en plaatsing van afsluitingen & tuinschermen. Of u nu een volledig nieuwe tuin wilt of uw bestaande tuin wil vernieuwen — wij verzorgen het van A tot Z.',
     categorie: 'Diensten',
   },
   {
