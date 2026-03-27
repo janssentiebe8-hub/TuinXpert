@@ -11,7 +11,7 @@ const faqs = [
   {
     vraag: 'Welke diensten biedt TuinXpert aan?',
     antwoord:
-      'TuinXpert biedt 6 tuindiensten aan: tuinaanleg & tuinontwerp, professioneel tuinonderhoud, bestrating & terrassen, groenvoorziening & beplanting, tuinrenovatie van bestaande tuinen, en plaatsing van afsluitingen & tuinschermen. Of u nu een volledig nieuwe tuin wilt of uw bestaande tuin wil vernieuwen — wij verzorgen het van A tot Z.',
+      'TuinXpert biedt 6 tuindiensten aan: tuinaanleg & tuinontwerp, professioneel tuinonderhoud, bestrating & terrassen, groenvoorziening & beplanting, tuinrenovatie van bestaande tuinen, en plaatsing van afsluitingen & tuinschermen. Of u nu een volledig nieuwe tuin wilt of uw bestaande tuin wil vernieuwen — wij verzorgen het van A tot Z. Heeft u een specifieke wens die hier niet bij staat? Neem gerust contact op — op aanvraag is veel meer mogelijk.',
     categorie: 'Diensten',
   },
   {
@@ -33,10 +33,10 @@ const faqs = [
     categorie: 'Planning',
   },
   {
-    vraag: 'Geven jullie garantie op het uitgevoerde werk?',
+    vraag: 'Staan jullie in voor de kwaliteit van het werk?',
     antwoord:
-      'Ja, TuinXpert staat volledig achter de kwaliteit van zijn werk. Op bestrating en constructiewerken bieden wij 2 jaar garantie. Op de gebruikte planten en bomen geven wij 1 groeiseizoen garantie, mits correcte verzorging door de klant. Onze garanties zijn conform het Belgisch recht. Eventuele opmerkingen of problemen lossen wij snel en professioneel op.',
-    categorie: 'Garantie',
+      'Kwaliteit staat bij ons centraal — elk project wordt zorgvuldig afgewerkt en we zijn pas tevreden als u dat ook bent. Hebben we iets over het hoofd gezien? Geen probleem, we komen het oplossen. Gewoon eerlijk vakwerk, dat is onze belofte.',
+    categorie: 'Kwaliteit',
   },
   {
     vraag: 'Wat zijn de tarieven van TuinXpert?',
@@ -51,7 +51,7 @@ const categorieBadgeKleur: Record<string, string> = {
   Werkgebied: 'bg-groen-helder text-white',
   Offerte: 'bg-groen-neon text-white',
   Planning: 'bg-groen text-white',
-  Garantie: 'bg-groen-helder text-white',
+  Kwaliteit: 'bg-groen-helder text-white',
   Prijzen: 'bg-groen-neon text-white',
 }
 
@@ -206,7 +206,7 @@ export default function FaqPage() {
                 </Link>
                 <a
                   href="tel:0493967417"
-                  className="inline-flex items-center justify-center gap-2 bg-transparent text-white font-body font-semibold px-7 py-3.5 rounded-md border-2 border-white border-opacity-50 hover:border-opacity-100 hover:bg-white hover:text-groen transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center justify-center gap-2 bg-white text-groen font-body font-semibold px-7 py-3.5 rounded-md hover:bg-groen-neon hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-groen-glow"
                 >
                   <Phone size={18} />
                   0493 96 74 17
