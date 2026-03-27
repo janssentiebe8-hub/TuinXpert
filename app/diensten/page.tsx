@@ -49,7 +49,7 @@ const services = [
     h2: 'Tuinaanleg in Mol en omgeving',
     subtitel: 'Uitgraven · Nivelleren · Volledig tuinontwerp en realisatie',
     description:
-      'Van grondwerken tot volledige tuinaanleg: wij zorgen voor een stabiele bodemvoorbereiding als fundament voor elk tuinproject. Als tuinarchitect in Mol begeleiden wij u van het eerste tuinplan tot de definitieve oplevering. Uw groenaanleg in de Kempen in vakkundige handen.',
+      'Van grondwerken tot volledige tuinaanleg: wij zorgen voor een stabiele bodemvoorbereiding als fundament voor elk tuinproject. Samen bespreken we uw wensen en werken we die uit tot een tuin die perfect aansluit bij uw woning en leefstijl. Uw groenaanleg in de Kempen in vakkundige handen.',
   },
   {
     icon: Scissors,
@@ -105,7 +105,7 @@ const servicesJsonLd = {
       '@type': 'Service',
       name: 'Tuinaanleg',
       description:
-        'Van grondwerken tot volledige tuinaanleg: wij zorgen voor een stabiele bodemvoorbereiding als fundament voor elk tuinproject. Als tuinarchitect in Mol begeleiden wij u van het eerste tuinplan tot de definitieve oplevering.',
+        'Van grondwerken tot volledige tuinaanleg: wij zorgen voor een stabiele bodemvoorbereiding als fundament voor elk tuinproject. Samen bespreken we uw wensen en werken we die uit tot een tuin die perfect aansluit bij uw woning en leefstijl.',
       provider: { '@type': 'LocalBusiness', name: 'TuinXpert', url: 'https://www.tuinxpert.be' },
       areaServed: { '@type': 'City', name: 'Mol' },
       serviceType: 'Tuinaanleg',

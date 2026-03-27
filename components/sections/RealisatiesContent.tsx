@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { WavingGrass, GrowingPlants } from '@/components/ui/NatureAnimations'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 
-type Category = 'Alle' | 'Tuinaanleg' | 'Onderhoud' | 'Bestrating' | 'Groenvoorziening'
+type Category = 'Alle' | 'Tuinaanleg' | 'Onderhoud' | 'Bestrating' | 'Groenvoorziening' | 'Andere'
 
 interface Project {
   id: number
@@ -90,7 +90,7 @@ const projects: Project[] = [
   {
     id: 7,
     title: 'Chape gelegd op zolder',
-    category: 'Bestrating',
+    category: 'Andere',
     location: 'Mol',
     year: 2025,
     image: '/images/realisaties/4C421405-981B-4DA6-8EED-48759EED7F41.jpeg',
@@ -101,7 +101,7 @@ const projects: Project[] = [
   {
     id: 8,
     title: 'Chape gelegd op zolder',
-    category: 'Bestrating',
+    category: 'Andere',
     location: 'Mol',
     year: 2025,
     image: '/images/realisaties/FB254EDF-C155-4782-9150-9699B5474877.jpeg',
@@ -111,7 +111,7 @@ const projects: Project[] = [
   },
 ]
 
-const allCategories: Category[] = ['Alle', 'Tuinaanleg', 'Onderhoud', 'Bestrating', 'Groenvoorziening']
+const allCategories: Category[] = ['Alle', 'Tuinaanleg', 'Onderhoud', 'Bestrating', 'Groenvoorziening', 'Andere']
 
 export default function RealisatiesContent() {
   const [activeCategory, setActiveCategory] = useState<Category>('Alle')
