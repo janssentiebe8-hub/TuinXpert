@@ -128,7 +128,12 @@ export default function FaqPage() {
             backgroundSize: '60px 60px',
           }}
         />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <motion.div
+          className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
           <span className="text-groen-neon font-body font-semibold text-sm tracking-widest uppercase">
             Veelgestelde vragen
           </span>
@@ -140,7 +145,7 @@ export default function FaqPage() {
             diensten, werkgebied, tarieven en aanpak. Staat uw vraag er niet bij?
             Contacteer ons gerust.
           </p>
-        </div>
+        </motion.div>
       </section>
 
       {/* FAQ Accordion */}

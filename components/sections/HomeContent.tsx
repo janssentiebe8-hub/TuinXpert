@@ -346,7 +346,7 @@ export default function HomeContent() {
               },
               {
                 title: 'Kasseien Oprit Reinigen',
-                category: 'Bestrating',
+                category: 'Onderhoud',
                 image: '/images/realisaties/foto-4.jpeg',
                 alt: 'Kasseien oprit gereinigd door TuinXpert in de Kempen',
               },
@@ -366,10 +366,7 @@ export default function HomeContent() {
                 />
                 <div className="absolute inset-0 bg-groen bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-400 flex items-end">
                   <div className="p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <span className="text-groen-neon font-body text-xs font-semibold tracking-widest uppercase">
-                      {project.category}
-                    </span>
-                    <h3 className="font-heading text-xl font-bold text-white mt-1">
+                    <h3 className="font-heading text-xl font-bold text-white">
                       {project.title}
                     </h3>
                   </div>
