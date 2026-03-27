@@ -124,7 +124,7 @@ export default function DienstenContent() {
                         strokeWidth={1.75}
                       />
                     </div>
-                    <span className="font-heading font-bold text-3xl text-groen-neon opacity-20 group-hover:opacity-40 transition-opacity duration-300 leading-none">
+                    <span className="font-heading font-bold text-3xl text-groen opacity-70 group-hover:opacity-90 transition-opacity duration-300 leading-none">
                       {service.nummer}
                     </span>
                   </div>
