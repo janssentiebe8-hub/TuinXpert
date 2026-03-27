@@ -117,7 +117,7 @@ export default function FaqPage() {
     <>
       {/* Hero */}
       <section
-        className="pt-32 pb-16 relative overflow-hidden"
+        className="pt-24 sm:pt-32 pb-6 sm:pb-8 relative overflow-hidden"
         style={{ background: 'linear-gradient(180deg, #F0F7F0 0%, #FFFFFF 100%)' }}
       >
         <div
@@ -129,19 +129,6 @@ export default function FaqPage() {
           }}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex justify-center mb-1">
-            <Image
-              src="/images/logo/TuinXpert-Logo-Full.svg"
-              alt="TuinXpert"
-              width={280}
-              height={100}
-              className="object-contain"
-              priority
-            />
-          </div>
-          <p className="font-body text-groen font-semibold text-sm tracking-widest uppercase mb-3">
-            Van schets tot droomtuin.
-          </p>
           <span className="text-groen-neon font-body font-semibold text-sm tracking-widest uppercase">
             Veelgestelde vragen
           </span>
